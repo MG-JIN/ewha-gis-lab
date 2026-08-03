@@ -56,8 +56,9 @@ export default function AboutPage() {
       <section className="mt-12">
         <h2 className="text-xl font-semibold text-ewha-green-900">지도교수</h2>
         <p className="mt-4 text-gray-600">
-          강영옥 교수 (이화여자대학교 사회과교육과 지리전공)
+          강영옥 교수 (이화여자대학교 사회과교육과 지리교육전공)
         </p>
+        <p className="mt-1 text-sm text-gray-500">연구실: 교육관 A동 522호</p>
       </section>
 
       <section className="mt-12">
