@@ -7,10 +7,7 @@ export default function ProjectsPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-16">
-      <PageHeading
-        title="Current Projects"
-        description="공간정보연구실이 현재 수행 중인 연구 프로젝트입니다."
-      />
+      <PageHeading title="Current Projects" />
 
       <div className="space-y-4">
         {projects.map((project) => (

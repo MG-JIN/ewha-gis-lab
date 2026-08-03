@@ -7,10 +7,7 @@ export default function PastProjectsPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-16">
-      <PageHeading
-        title="Past Projects"
-        description="공간정보연구실이 과거에 수행한 연구 프로젝트입니다."
-      />
+      <PageHeading title="Past Projects" />
 
       <div className="space-y-4">
         {projects.map((project) => (
