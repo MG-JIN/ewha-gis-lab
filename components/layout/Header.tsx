@@ -5,7 +5,10 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { withBasePath } from "@/lib/site";
 
-const NAV_ITEMS = [{ label: "About Us", href: "/about" }];
+const ABOUT_SUBMENU = [
+  { label: "About Us", href: "/about" },
+  { label: "Curriculum", href: "/about/curriculum" },
+];
 
 const MEMBERS_SUBMENU = [
   { label: "Current Members", href: "/members" },
@@ -22,19 +25,21 @@ const TRAILING_NAV_ITEMS = [
   { label: "News", href: "/news" },
 ];
 
-type MenuKey = "members" | "projects";
+type MenuKey = "about" | "members" | "projects";
 
 export default function Header() {
   const [openMenu, setOpenMenu] = useState<MenuKey | null>(null);
+  const aboutMenuRef = useRef<HTMLDivElement>(null);
   const membersMenuRef = useRef<HTMLDivElement>(null);
   const projectsMenuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       const target = event.target as Node;
+      const insideAbout = aboutMenuRef.current?.contains(target);
       const insideMembers = membersMenuRef.current?.contains(target);
       const insideProjects = projectsMenuRef.current?.contains(target);
-      if (!insideMembers && !insideProjects) {
+      if (!insideAbout && !insideMembers && !insideProjects) {
         setOpenMenu(null);
       }
     }
@@ -71,15 +76,33 @@ export default function Header() {
           </span>
         </Link>
         <nav className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm font-medium text-gray-600">
-          {NAV_ITEMS.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="transition-colors hover:text-ewha-green-900"
+          <div className="relative" ref={aboutMenuRef}>
+            <button
+              type="button"
+              onClick={() => toggleMenu("about")}
+              aria-expanded={openMenu === "about"}
+              className="flex items-center gap-1 transition-colors hover:text-ewha-green-900"
             >
-              {item.label}
-            </Link>
-          ))}
+              About Us
+              <span aria-hidden="true" className="text-xs">
+                ▾
+              </span>
+            </button>
+            {openMenu === "about" ? (
+              <div className="absolute left-0 top-full z-10 mt-2 w-44 rounded-md border border-ewha-grey bg-white py-2 shadow-md">
+                {ABOUT_SUBMENU.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setOpenMenu(null)}
+                    className="block px-4 py-2 text-sm text-gray-600 transition-colors hover:bg-ewha-green-50 hover:text-ewha-green-900"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            ) : null}
+          </div>
 
           <div className="relative" ref={membersMenuRef}>
             <button
