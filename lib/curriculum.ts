@@ -11,6 +11,7 @@ export interface CurriculumProgram {
   slug: string;
   title: string;
   order: number;
+  showTitle: boolean;
   contentHtml: string;
 }
 
@@ -39,13 +40,14 @@ export async function getCurriculumPrograms(): Promise<CurriculumProgram[]> {
       const { data, content } = matter(fileContents);
       const processedContent = await remark()
         .use(remarkGfm)
-        .use(html)
+        .use(html, { sanitize: false })
         .process(content);
 
       return {
         slug,
         title: data.title as string,
         order: (data.order as number) ?? 0,
+        showTitle: (data.showTitle as boolean) ?? true,
         contentHtml: wrapTablesAndExternalLinks(processedContent.toString()),
       };
     })

@@ -15,7 +15,9 @@ export default async function CurriculumPage() {
       <div className="space-y-6">
         {programs.map((program) => (
           <Card key={program.slug}>
-            <p className="font-medium text-gray-900">{program.title}</p>
+            {program.showTitle !== false ? (
+              <p className="curriculum-lead">{program.title}</p>
+            ) : null}
             <div
               className="prose prose-gray mt-3 max-w-none"
               dangerouslySetInnerHTML={{ __html: program.contentHtml }}

@@ -31,3 +31,9 @@
   /* 브랜드 폰트: 이화체 웹폰트 도입 전 임시값 */
   --font-ewha-brand: "Pretendard", "Noto Sans KR", sans-serif;
 }
+
+/* Curriculum 페이지 제목(학부/대학원 공용). prose h3(기본 사이즈, 1.25em)보다 2pt 크게. */
+.curriculum-lead {
+  font-size: calc(1.25em + 2pt);
+  font-weight: 700;
+}

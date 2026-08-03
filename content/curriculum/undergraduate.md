@@ -1,9 +1,10 @@
 ---
 title: "공간정보융합트랙 (학부)"
 order: 1
+showTitle: false
 ---
 
-**학부 공간정보 융합 트랙(Undergraduate GIS Convergence Track)**
+<p class="curriculum-lead">학부 공간정보 융합 트랙(Undergraduate GIS Convergence Track)</p>
 
 이화여자대학교 공간정보 융합트랙은 학생들의 융복합적 사고와 창의성 함양을 위해 2016년부터 지원되어 온 교과 간 융합 교육과정 개발 사업의 일환으로 마련되었습니다. 개설 첫 해인 2016년 최우수 트랙으로 선정된 이래, 2022학년도부터 2025학년도까지 4년 연속 우수 TELOS 트랙으로 선정되며 그 교육적 성과를 인정받고 있습니다.
 
