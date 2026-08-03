@@ -3,7 +3,7 @@ import Card from "@/components/ui/Card";
 import { getMembersByCategory, type MemberCategory } from "@/lib/members";
 
 const GROUPS: { category: MemberCategory; label: string }[] = [
-  { category: "faculty", label: "Faculty" },
+  { category: "faculty", label: "Professor" },
   { category: "phd", label: "PhD" },
   { category: "combined-ms-phd", label: "Combined MS/PhD" },
   { category: "ms", label: "MS" },
