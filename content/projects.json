@@ -30,5 +30,236 @@
     "period": "2019.04 - 2020.12",
     "status": "completed",
     "description": "장소 기반 관광 서비스 제공을 위해 합성곱 신경망(CNN)을 활용한 관광 이미지 분류 모형을 개발한 연구입니다."
+  },
+  {
+    "id": "past-social-bigdata-image-analysis-2018",
+    "title": "소셜 빅데이터의 시공간 데이터마이닝 및 딥러닝 기반 이미지 데이터 분석방안 연구",
+    "funder": "한국국토정보공사 공간정보연구원",
+    "period": "2018 - 2019",
+    "status": "completed"
+  },
+  {
+    "id": "past-world-heritage-mobile-fieldtrip-2014-2019",
+    "title": "모바일 기반 세계유산 현장체험학습 연구: 교육과 IT 융합",
+    "funder": "한국연구재단",
+    "period": "2014 - 2019",
+    "status": "completed"
+  },
+  {
+    "id": "past-spatial-edu-module-2016",
+    "title": "공간정보 융복합 교육지원을 위한 수업모듈 개발",
+    "funder": "국토지리정보원",
+    "period": "2016.11 - 2017.07",
+    "status": "completed"
+  },
+  {
+    "id": "past-opensource-gis-sw-2017",
+    "title": "공간정보 SW활용을 위한 오픈소스 가공기술 개발",
+    "funder": "국토교통과학기술진흥원",
+    "period": "2017.02 - 2017.12",
+    "status": "completed"
+  },
+  {
+    "id": "past-world-heritage-mobile-fieldtrip-2016",
+    "title": "모바일 기반 세계유산 현장 체험학습 연구: 교육과 IT의 융합",
+    "funder": "한국연구재단",
+    "period": "2016.09 - 2017.08",
+    "status": "completed"
+  },
+  {
+    "id": "past-opensource-gis-sw-2016",
+    "title": "공간정보 SW활용을 위한 오픈소스 가공기술 개발",
+    "funder": "국토교통과학기술진흥원",
+    "period": "2016.02 - 2017.02",
+    "status": "completed"
+  },
+  {
+    "id": "past-world-heritage-mobile-fieldtrip-2015",
+    "title": "모바일 기반 세계유산 현장 체험학습 연구: 교육과 IT의 융합",
+    "funder": "한국연구재단",
+    "period": "2015.09 - 2016.08",
+    "status": "completed"
+  },
+  {
+    "id": "past-spatial-edu-teacher-training-2015",
+    "title": "『2015년 공간정보 창의인재 양성사업』 공간정보 특성화 고등학교 교원연수 운영",
+    "funder": "공간정보산업진흥원",
+    "period": "2015.06 - 2016.01",
+    "status": "completed"
+  },
+  {
+    "id": "past-spatial-edu-textbook-2015",
+    "title": "『2015년 공간정보 창의인재 양성사업』 공간정보 특성화 고등학교 3학년 교재개발 및 출판",
+    "funder": "국토연구원",
+    "period": "2015.05 - 2016.01",
+    "status": "completed"
+  },
+  {
+    "id": "past-opensource-gis-sw-2015",
+    "title": "공간정보 SW활용을 위한 오픈소스 가공기술 개발",
+    "funder": "공간정보산업진흥원",
+    "period": "2015.02 - 2016.02",
+    "status": "completed"
+  },
+  {
+    "id": "past-world-heritage-mobile-fieldtrip-2014",
+    "title": "모바일 기반 세계유산 현장 체험학습 연구: 교육과 IT의 융합",
+    "funder": "한국연구재단",
+    "period": "2014.09 - 2015.08",
+    "status": "completed"
+  },
+  {
+    "id": "past-opensource-gis-sw-2014",
+    "title": "공간정보 SW활용을 위한 오픈소스 가공기술 개발",
+    "funder": "공간정보산업진흥원",
+    "period": "2014.08 - 2015.02",
+    "status": "completed"
+  },
+  {
+    "id": "past-spatial-edu-teacher-training-2014",
+    "title": "『2014년 공간정보 창의인재 양성 운영 관리사업』 공간정보 특성화 고등학교 교원 연수 운영",
+    "funder": "공간정보산업진흥원",
+    "period": "2014.07 - 2015.02",
+    "status": "completed"
+  },
+  {
+    "id": "past-spatial-edu-curriculum-2014",
+    "title": "『2014년 공간정보 창의인재 양성 운영 관리사업』 공간정보 특성화 고등학교 교육과정 및 교재개발",
+    "funder": "국토연구원",
+    "period": "2014.06 - 2015.01",
+    "status": "completed"
+  },
+  {
+    "id": "past-spatial-edu-hub-university-2013",
+    "title": "공간정보교육거점대학 지원 사업 (2013)",
+    "funder": "국토연구원",
+    "period": "2013.07 - 2014.02",
+    "status": "completed"
+  },
+  {
+    "id": "past-spatial-edu-integration-plan-2013",
+    "title": "공간정보와 교육 융합 활용 기본계획 연구",
+    "funder": "국토교통부",
+    "period": "2013.05 - 2013.12",
+    "status": "completed"
+  },
+  {
+    "id": "past-world-heritage-smart-tour-2012",
+    "title": "세계유산의 융합교육적 가치재발견: 세계유산 스마트투어 프레임워크 연구",
+    "funder": "한국연구재단",
+    "period": "2012.09 - 2013.08",
+    "status": "completed"
+  },
+  {
+    "id": "past-basic-district-datamodel-2012",
+    "title": "국가기초구역 데이터모델 개선 및 의사결정지원서비스 구축전략수립연구",
+    "funder": "한국지역정보개발원",
+    "period": "2012.07 - 2012.12",
+    "status": "completed"
+  },
+  {
+    "id": "past-spatial-edu-hub-university-2012",
+    "title": "공간정보교육거점대학 지원 사업 (2012)",
+    "funder": "국토연구원",
+    "period": "2012.07 - 2013.02",
+    "status": "completed"
+  },
+  {
+    "id": "past-petroleum-metadata-design-2012",
+    "title": "석유탐사정보 메타데이터 세부설계",
+    "funder": "한국지질자원 연구원",
+    "period": "2012.03 - 2012.11",
+    "status": "completed"
+  },
+  {
+    "id": "past-road-address-basic-district-2011",
+    "title": "행안부 2011년 도로명주소 정보화 사업(국가기초구역 구축지침개발)",
+    "funder": "SK C&C",
+    "period": "2011.05 - 2011.12",
+    "status": "completed"
+  },
+  {
+    "id": "past-petroleum-metadata-standard-2011",
+    "title": "석유탐사정보 유통을 위한 메타데이터 표준화 기초연구",
+    "funder": "한국지질자원 연구원",
+    "period": "2011.03 - 2011.11",
+    "status": "completed"
+  },
+  {
+    "id": "past-spatial-edu-hub-university-2011",
+    "title": "공간정보교육거점대학 지원 사업 (2011)",
+    "funder": "국토연구원",
+    "period": "2011.06 - 2012.02",
+    "status": "completed"
+  },
+  {
+    "id": "past-basic-district-survey-2010",
+    "title": "국가기초구역 설정지침개발을 위한 현황조사",
+    "funder": "ETRI",
+    "period": "2010.08 - 2010.11",
+    "status": "completed"
+  },
+  {
+    "id": "past-spatial-edu-hub-university-2010",
+    "title": "공간정보교육거점대학 지원 사업 (2010)",
+    "funder": "국토연구원",
+    "period": "2010.05 - 2011.02",
+    "status": "completed"
+  },
+  {
+    "id": "past-spatial-edu-hub-university-2009",
+    "title": "공간정보교육거점대학 지원 사업 (2009)",
+    "funder": "국토연구원",
+    "period": "2009.07 - 2010.02",
+    "status": "completed"
+  },
+  {
+    "id": "past-ueco-city-guideline-3-2009",
+    "title": "U-Eco City 구축 가이드라인 3차",
+    "funder": "건설기술평가원 토지공사",
+    "period": "2009.06 - 2009.12",
+    "status": "completed"
+  },
+  {
+    "id": "past-location-marking-system-2009",
+    "title": "지역의 위치표시체계 개발연구",
+    "funder": "행정안전부",
+    "period": "2009.06 - 2009.12",
+    "status": "completed"
+  },
+  {
+    "id": "past-jongno-road-address-2009",
+    "title": "종로구 도로명 등 새주소체계 정비 연구용역",
+    "funder": "종로구청",
+    "period": "2009.02 - 2009.10",
+    "status": "completed"
+  },
+  {
+    "id": "past-road-address-quality-2009",
+    "title": "도로명주소 품질분석연구",
+    "funder": "행정안전부",
+    "period": "2009.08 - 2009.09",
+    "status": "completed"
+  },
+  {
+    "id": "past-ueco-city-framework-2009",
+    "title": "U-Eco City 구축 가이드라인 작성을 위한 프레임워크개발",
+    "funder": "건설기술평가원 토지공사",
+    "period": "2009.01 - 2009.06",
+    "status": "completed"
+  },
+  {
+    "id": "past-ueco-city-basic-2008",
+    "title": "U-Eco City 구축 가이드라인 기초연구",
+    "funder": "건설기술평가원 토지공사",
+    "period": "2008.08 - 2008.12",
+    "status": "completed"
+  },
+  {
+    "id": "past-spatial-statistics-standard-2008",
+    "title": "공간통계지식체계 기반표준개발사업",
+    "funder": "통계청",
+    "period": "2008.07 - 2008.12",
+    "status": "completed"
   }
 ]
