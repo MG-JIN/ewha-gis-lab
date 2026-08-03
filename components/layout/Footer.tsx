@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <footer className="border-t border-gray-200 bg-white">
+    <footer className="border-t border-ewha-grey bg-white">
       <div className="mx-auto max-w-5xl px-6 py-10 text-sm text-gray-500">
-        <p className="font-semibold text-gray-700">
+        <p className="font-semibold text-ewha-green-900">
           Ewha GIS Lab <span className="font-normal text-gray-500">(공간정보연구실)</span>
         </p>
         <p className="mt-2">

@@ -3,6 +3,11 @@ import PageHeading from "@/components/ui/PageHeading";
 import Card from "@/components/ui/Card";
 import { getNewsList } from "@/lib/news";
 
+const CATEGORY_BADGE_CLASS: Record<string, string> = {
+  공지사항: "bg-ewha-coral text-ewha-green-900",
+  소식: "bg-ewha-blue text-ewha-green-900",
+};
+
 export default function NewsPage() {
   const newsList = getNewsList();
 
@@ -17,7 +22,12 @@ export default function NewsPage() {
               <div className="flex items-center gap-3 text-xs text-gray-400">
                 <span>{post.date}</span>
                 {post.category ? (
-                  <span className="rounded-full bg-gray-100 px-2 py-0.5 text-gray-600">
+                  <span
+                    className={`rounded-full px-2 py-0.5 ${
+                      CATEGORY_BADGE_CLASS[post.category] ??
+                      "bg-gray-100 text-gray-600"
+                    }`}
+                  >
                     {post.category}
                   </span>
                 ) : null}

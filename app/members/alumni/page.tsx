@@ -33,7 +33,7 @@ export default function AlumniPage() {
 
         return (
           <section key={degree} className="mb-12">
-            <h2 className="mb-4 text-xl font-semibold text-gray-900">{label}</h2>
+            <h2 className="mb-4 text-xl font-semibold text-ewha-green-900">{label}</h2>
             <div className="grid gap-4 sm:grid-cols-2">
               {members.map((member) => (
                 <Card key={member.id}>

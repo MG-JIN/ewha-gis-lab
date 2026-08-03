@@ -1,2 +1,33 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+
+/* TODO: 학교 홍보실로부터 이화체 웹폰트 파일(.woff2)을 받으면
+   public/fonts/ 에 넣고, @font-face로 등록한 뒤
+   --font-ewha-brand 값만 'EwhaFont'로 교체하면 됨 */
+
+@theme {
+  /* Primary - Ewha Green (H156°, 900 = 공식 Primary #00462A 고정) */
+  --color-ewha-green-50: #f4faf8;
+  --color-ewha-green-100: #e1f4ec;
+  --color-ewha-green-200: #b8ead6;
+  --color-ewha-green-300: #78e2b8;
+  --color-ewha-green-400: #2ee59c;
+  --color-ewha-green-500: #0dc97e;
+  --color-ewha-green-600: #03a061;
+  --color-ewha-green-700: #00804d;
+  --color-ewha-green-800: #00663d;
+  --color-ewha-green-900: #00462a;
+
+  /* Secondary - 무채색 (배색 비율 제한 없음) */
+  --color-ewha-pear-blossom: #fffdf1;
+  --color-ewha-grey: #b9b9b9;
+
+  /* Secondary - 유채색 포인트 (전체 사용 비율 10% 이하, 작은 요소 전용) */
+  --color-ewha-yellow-green: #bcc924;
+  --color-ewha-blue: #45a2bc;
+  --color-ewha-mint: #36aebc;
+  --color-ewha-coral: #f27367;
+
+  /* 브랜드 폰트: 이화체 웹폰트 도입 전 임시값 */
+  --font-ewha-brand: "Pretendard", "Noto Sans KR", sans-serif;
+}

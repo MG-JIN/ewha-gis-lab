@@ -67,7 +67,7 @@ export default function AboutPage() {
       />
 
       <section>
-        <h2 className="text-xl font-semibold text-gray-900">연구실 소개</h2>
+        <h2 className="text-xl font-semibold text-ewha-green-900">연구실 소개</h2>
         <p className="mt-4 max-w-3xl leading-relaxed text-gray-600">
           이화여자대학교 공간정보연구실은 공간정보 및 GIS를 기반으로 보행자 안전,
           도시공간 분석, 공간 빅데이터 분석·시각화, GeoAI 등 다양한 연구를
@@ -77,14 +77,14 @@ export default function AboutPage() {
       </section>
 
       <section className="mt-12">
-        <h2 className="text-xl font-semibold text-gray-900">지도교수</h2>
+        <h2 className="text-xl font-semibold text-ewha-green-900">지도교수</h2>
         <p className="mt-4 text-gray-600">
           강영옥 교수 (이화여자대학교 사회과교육과 지리전공)
         </p>
       </section>
 
       <section className="mt-12">
-        <h2 className="text-xl font-semibold text-gray-900">연혁</h2>
+        <h2 className="text-xl font-semibold text-ewha-green-900">연혁</h2>
         <ul className="mt-4 space-y-2">
           {HISTORY.map((item) => (
             <li key={item.year} className="flex gap-4 text-gray-600">
@@ -96,7 +96,7 @@ export default function AboutPage() {
       </section>
 
       <section className="mt-12">
-        <h2 className="text-xl font-semibold text-gray-900">연구 분야</h2>
+        <h2 className="text-xl font-semibold text-ewha-green-900">연구 분야</h2>
         <div className="mt-4 grid gap-4 sm:grid-cols-3">
           {RESEARCH_AREAS.map((area) => (
             <Card key={area.title}>
@@ -108,7 +108,7 @@ export default function AboutPage() {
       </section>
 
       <section className="mt-12">
-        <h2 className="text-xl font-semibold text-gray-900">교육과정</h2>
+        <h2 className="text-xl font-semibold text-ewha-green-900">교육과정</h2>
         <div className="mt-4 space-y-4">
           {CURRICULUM.map((program) => (
             <Card key={program.name}>

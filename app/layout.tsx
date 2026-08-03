@@ -15,6 +15,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* 임시 브랜드 폰트(Pretendard) CDN. 이화체 웹폰트 도입 시 이 태그를 제거하고
+            globals.css의 --font-ewha-brand 값을 'EwhaFont'로 교체하면 됨 */}
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css"
+        />
+      </head>
       <body className="flex min-h-screen flex-col bg-gray-50 text-gray-900 antialiased">
         <Header />
         <main className="flex-1">{children}</main>

@@ -12,6 +12,11 @@ const TYPE_LABEL: Record<PublicationType, string> = {
   conference: "Conference",
 };
 
+const TYPE_BADGE_CLASS: Record<PublicationType, string> = {
+  journal: "bg-ewha-yellow-green text-ewha-green-900",
+  conference: "bg-ewha-mint text-ewha-green-900",
+};
+
 type FilterValue = "all" | PublicationType;
 
 const FILTERS: { value: FilterValue; label: string }[] = [
@@ -57,8 +62,8 @@ export default function PublicationsExplorer({
             aria-pressed={filter === item.value}
             className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
               filter === item.value
-                ? "bg-gray-900 text-white"
-                : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                ? "bg-ewha-green-900 text-white"
+                : "bg-gray-100 text-gray-600 hover:bg-ewha-green-50 hover:text-ewha-green-900"
             }`}
           >
             {item.label} ({counts[item.value]})
@@ -69,7 +74,7 @@ export default function PublicationsExplorer({
       <div className="space-y-10">
         {grouped.map(([year, pubs]) => (
           <section key={year}>
-            <h2 className="mb-4 text-xl font-semibold text-gray-900">{year}</h2>
+            <h2 className="mb-4 text-xl font-semibold text-ewha-green-900">{year}</h2>
             <ul className="space-y-4">
               {pubs.map((pub) => (
                 <li
@@ -80,7 +85,9 @@ export default function PublicationsExplorer({
                   <p className="mt-1 text-sm text-gray-600">
                     {pub.authors} · {pub.venue}
                   </p>
-                  <span className="mt-2 inline-block rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-600">
+                  <span
+                    className={`mt-2 inline-block rounded-full px-3 py-1 text-xs font-medium ${TYPE_BADGE_CLASS[pub.type]}`}
+                  >
                     {TYPE_LABEL[pub.type]}
                   </span>
                 </li>

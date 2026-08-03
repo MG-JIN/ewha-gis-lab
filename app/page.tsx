@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="mx-auto max-w-5xl px-6 py-16">
       <section>
-        <h1 className="text-4xl font-bold tracking-tight text-gray-900">
+        <h1 className="text-4xl font-bold tracking-tight text-ewha-green-900">
           Ewha GIS Lab
         </h1>
         <p className="mt-4 max-w-2xl text-lg text-gray-600">
@@ -21,7 +21,7 @@ export default function Home() {
         </p>
         <Link
           href="/about"
-          className="mt-6 inline-block rounded-md bg-gray-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-gray-700"
+          className="mt-6 inline-block rounded-md bg-ewha-green-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-ewha-green-800"
         >
           About Us
         </Link>
@@ -29,8 +29,8 @@ export default function Home() {
 
       <section className="mt-16">
         <div className="mb-4 flex items-center justify-between">
-          <h2 className="text-xl font-semibold text-gray-900">News</h2>
-          <Link href="/news" className="text-sm text-gray-500 hover:text-gray-900">
+          <h2 className="text-xl font-semibold text-ewha-green-900">News</h2>
+          <Link href="/news" className="text-sm text-gray-500 hover:text-ewha-green-900">
             View all
           </Link>
         </div>
@@ -52,12 +52,12 @@ export default function Home() {
       <section className="mt-16 grid gap-10 sm:grid-cols-2">
         <div>
           <div className="mb-4 flex items-center justify-between">
-            <h2 className="text-xl font-semibold text-gray-900">
+            <h2 className="text-xl font-semibold text-ewha-green-900">
               Ongoing Projects
             </h2>
             <Link
               href="/projects"
-              className="text-sm text-gray-500 hover:text-gray-900"
+              className="text-sm text-gray-500 hover:text-ewha-green-900"
             >
               View all
             </Link>
@@ -74,12 +74,12 @@ export default function Home() {
 
         <div>
           <div className="mb-4 flex items-center justify-between">
-            <h2 className="text-xl font-semibold text-gray-900">
+            <h2 className="text-xl font-semibold text-ewha-green-900">
               Recent Publications
             </h2>
             <Link
               href="/publications"
-              className="text-sm text-gray-500 hover:text-gray-900"
+              className="text-sm text-gray-500 hover:text-ewha-green-900"
             >
               View all
             </Link>
