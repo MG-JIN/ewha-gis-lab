@@ -196,5 +196,53 @@
   { "id": "pub-conf-096", "year": 2013, "authors": "김현덕, 강영옥", "title": "오픈소스환경에서 공공데이터의 지리적 시각화 연구", "venue": "2013년 지리학대회", "type": "conference" },
   { "id": "pub-conf-097", "year": 2013, "authors": "박지영, 강영옥", "title": "지오웹을 활용한 온라인 National Atlas 구현에 관한 연구", "venue": "2013 한국공간정보학회 춘계학술대회", "type": "conference" },
   { "id": "pub-conf-098", "year": 2013, "authors": "강영옥, 신동희, 오영찬", "title": "현장중심의 융합교육 교수학습설계 방안", "venue": "2013 공동춘계학술대회", "type": "conference" },
-  { "id": "pub-conf-099", "year": 2012, "authors": "정다운, 강영옥", "title": "모바일 증강현실 기반 역사관광정보제공 서비스에 관한 연구", "venue": "2012년 한국지도학회 춘계학술대회", "type": "conference" }
+  { "id": "pub-conf-099", "year": 2012, "authors": "정다운, 강영옥", "title": "모바일 증강현실 기반 역사관광정보제공 서비스에 관한 연구", "venue": "2012년 한국지도학회 춘계학술대회", "type": "conference" },
+  {
+    "id": "pub-patent-001",
+    "year": 2025,
+    "authors": "강영옥, 조주연",
+    "type": "patent",
+    "titleKo": "보행자 이동궤적의 이상 여부를 탐지하는 방법 및 장치",
+    "titleEn": "Method and apparatus for detecting abnormalities in pedestrian trajectories",
+    "date": "2025.10"
+  },
+  {
+    "id": "pub-patent-002",
+    "year": 2025,
+    "authors": "강영옥, 이지윤",
+    "type": "patent",
+    "titleKo": "보차혼용도로의 혼잡도 및 안전도를 평가하는 방법 및 장치",
+    "titleEn": "Method and apparatus for evaluating congestion and safety in an alleyway",
+    "date": "2025.06"
+  },
+  {
+    "id": "pub-patent-003",
+    "year": 2020,
+    "authors": "강영옥, 조나혜",
+    "type": "patent",
+    "titleKo": "합성곱 신경망을 활용한 SNS 이미지 데이터의 관광 목적 분류 및 관광객별 선호도 분석 방법, 이를 수행하기 위한 기록 매체 및 장치",
+    "titleEn": "METHOD OF CLASSIFYING SNS IMAGE DATA FOR TOURISM AND ANALYZING PREFERENCE BY TOURISTS USING CONVOLUTION NEURAL NETWORK, RECORDING MEDIUM AND DEVICE FOR PERFORMING THE METHOD",
+    "date": "2020.07",
+    "description": "본 발명은 합성곱 신경망을 활용한 SNS 이미지 데이터의 관광 목적 분류 및 관광객별 선호도 분석 방법에 관한 것으로, 지오태깅된 SNS 이미지 데이터 입력; 합성곱 신경망(CNN)을 통해 관광객의 관광 활동(What)을 학습; 관광 목적의 이미지 전용 분류 체계에 따라 이미지 데이터 분류; 각 관광객의 이동 궤적(trajectory)을 도출; 3D DBSCAN; 일정 지역 관광의 시공간적 관심 특성을 분석의 단계를 포함한다."
+  },
+  {
+    "id": "pub-patent-004",
+    "year": 2020,
+    "authors": "강영옥, 조나혜",
+    "type": "patent",
+    "titleKo": "공간 정보 딥러닝 기술을 활용한 관광 목적 SNS 이미지 데이터 분류의 정확도 향상 방법, 이를 수행하기 위한 기록 매체 및 장치",
+    "titleEn": "METHOD OF IMPROVING CLASSIFICATION ACCURACY OF SNS IMAGE DATA FOR TOURISM USING SPACE INFORMATION DEEP LEARNING, RECORDING MEDIUM AND DEVICE FOR PERFORMING THE METHOD",
+    "date": "2020.05",
+    "description": "본 발명은 공간 정보 딥러닝 기술을 활용한 관광 목적 SNS 이미지 데이터 분류의 정확도를 향상 방법에 관한 것으로, 카테고리가 라벨링된 사진 데이터의 DBSCAN을 통해 위치 정보를 확인하고, 오류가 있는 경우 위치 정보를 갱신하여 분류 정확도를 향상시킬 수 있다."
+  },
+  {
+    "id": "pub-patent-005",
+    "year": 2017,
+    "authors": "조나혜, 강영옥",
+    "type": "patent",
+    "titleKo": "미션 수행을 위한 경로정보 제공 방법, 이를 수행하기 위한 기록매체",
+    "titleEn": "METHOD FOR PROVIDING ROUTE INFORMATION FOR PERFORMING MISSIONS, AND RECORDING MEDIUM FOR PERFORMING THE METHOD",
+    "date": "2017.04",
+    "description": "본 발명은 미션 수행을 위한 경로정보 제공 방법, 이를 수행하기 위한 기록매체에 관한 것으로서, 더욱 상세하게는 도로의 형성여부와 관계없이 미션을 효율적으로 수행하기 위한 경로정보를 제공하는 미션 수행을 위한 경로정보 제공 방법, 이를 수행하기 위한 기록매체에 관한 것이다."
+  }
 ]

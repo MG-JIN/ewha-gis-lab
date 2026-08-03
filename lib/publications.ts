@@ -1,19 +1,39 @@
 import publicationsData from "@/content/publications.json";
 
-export type PublicationType = "journal" | "conference";
+export type PublicationType = "journal" | "conference" | "patent";
 
 export interface Publication {
   id: string;
   year: number;
   authors: string;
-  title: string;
-  venue: string;
   type: PublicationType;
   link?: string;
+  // journal / conference
+  title?: string;
+  venue?: string;
+  // patent
+  titleKo?: string;
+  titleEn?: string;
+  date?: string;
+  description?: string;
+}
+
+function parsePatentDate(date?: string): number {
+  const [y, m] = (date ?? "").split(".").map(Number);
+  return y ? y * 100 + (m || 0) : 0;
+}
+
+function getSortKey(pub: Publication): number {
+  if (pub.type === "patent") {
+    return parsePatentDate(pub.date) || pub.year * 100;
+  }
+  return pub.year * 100;
 }
 
 export function getPublications(): Publication[] {
-  return [...(publicationsData as Publication[])].sort((a, b) => b.year - a.year);
+  return [...(publicationsData as Publication[])].sort(
+    (a, b) => getSortKey(b) - getSortKey(a)
+  );
 }
 
 export function groupPublicationsByYear(
