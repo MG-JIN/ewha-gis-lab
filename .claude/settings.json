@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:cms.ewha.ac.kr)",
+      "PowerShell(node -e \"const d=require\\('./content/members.json'\\); console.log\\('total:', d.length\\); console.log\\('phd/ms with interests field:', d.filter\\(m=>['phd','ms'].includes\\(m.category\\) && 'interests' in m\\).length\\); console.log\\('heo-jeongin found:', d.some\\(m=>m.id==='ms-heo-jeongin'\\)\\); console.log\\('faculty interests ok:', d.find\\(m=>m.category==='faculty'\\).interests.length\\);\")",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;\" + $env:Path; npm run build 2>&1 | Select-Object -Last 40)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;\" + $env:Path; node \"C:\\\\Users\\\\wlsal\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-wlsal-OneDrive-Desktop-ewhagis\\\\893b3c4e-5216-4d2c-995e-142f37a6185f\\\\scratchpad\\\\diff-alumni.js\")",
+      "PowerShell(git config --global user.name)",
+      "PowerShell(git config --global user.email)"
+    ]
+  }
+}

@@ -16,8 +16,9 @@ export function getPublications(): Publication[] {
   return [...(publicationsData as Publication[])].sort((a, b) => b.year - a.year);
 }
 
-export function getPublicationsByYear(): [number, Publication[]][] {
-  const publications = getPublications();
+export function groupPublicationsByYear(
+  publications: Publication[]
+): [number, Publication[]][] {
   const years = Array.from(new Set(publications.map((pub) => pub.year))).sort(
     (a, b) => b - a
   );
@@ -25,4 +26,8 @@ export function getPublicationsByYear(): [number, Publication[]][] {
     year,
     publications.filter((pub) => pub.year === year),
   ]);
+}
+
+export function getPublicationsByYear(): [number, Publication[]][] {
+  return groupPublicationsByYear(getPublications());
 }
