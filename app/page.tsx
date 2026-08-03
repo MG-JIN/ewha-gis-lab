@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { getNewsList } from "@/lib/news";
 import { getPublications } from "@/lib/publications";
-import { getProjects } from "@/lib/projects";
+import { getCurrentProjects } from "@/lib/projects";
 import Card from "@/components/ui/Card";
 
 export default function Home() {
   const recentNews = getNewsList().slice(0, 3);
   const recentPublications = getPublications().slice(0, 3);
-  const ongoingProjects = getProjects().filter((p) => p.status === "ongoing");
+  const currentProjects = getCurrentProjects();
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-16">
@@ -53,7 +53,7 @@ export default function Home() {
         <div>
           <div className="mb-4 flex items-center justify-between">
             <h2 className="text-xl font-semibold text-ewha-green-900">
-              Ongoing Projects
+              Current Projects
             </h2>
             <Link
               href="/projects"
@@ -63,7 +63,7 @@ export default function Home() {
             </Link>
           </div>
           <ul className="space-y-3">
-            {ongoingProjects.map((project) => (
+            {currentProjects.map((project) => (
               <li key={project.id} className="text-sm text-gray-700">
                 <span className="font-medium text-gray-900">{project.title}</span>
                 <span className="block text-gray-500">{project.funder}</span>

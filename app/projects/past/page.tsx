@@ -1,15 +1,15 @@
 import PageHeading from "@/components/ui/PageHeading";
 import Card from "@/components/ui/Card";
-import { getCurrentProjects } from "@/lib/projects";
+import { getPastProjects } from "@/lib/projects";
 
-export default function ProjectsPage() {
-  const projects = getCurrentProjects();
+export default function PastProjectsPage() {
+  const projects = getPastProjects();
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-16">
       <PageHeading
-        title="Current Projects"
-        description="공간정보연구실이 현재 수행 중인 연구 프로젝트입니다."
+        title="Past Projects"
+        description="공간정보연구실이 과거에 수행한 연구 프로젝트입니다."
       />
 
       <div className="space-y-4">
