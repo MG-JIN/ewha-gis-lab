@@ -81,13 +81,13 @@ ewha-gis-lab/
 
 ## 4. 내비게이션 & 페이지 구성
 
-**상단 메뉴 (5개, 영어 라벨):**
+**상단 메뉴 (5개, 영어 라벨):** About Us / Members / Projects는 각각 하위 페이지 2개를 갖는 Header 드롭다운(`▾`)으로 구성된다.
 
 | 메뉴 | 경로 | 내용 |
 |---|---|---|
-| About Us | `/about` | 연구실 소개, 연혁, 지도교수 소개 + **연구 분야 섹션 포함** |
-| Members | `/members` | 교수/박사·석사과정/졸업생 — 사진, 이름, 관심분야 |
-| Projects | `/projects` | 진행 중/완료 프로젝트, 지원기관, 기간 |
+| About Us | `/about` (About Us) · `/about/curriculum` (Curriculum) — 별도 페이지 + 드롭다운 | About Us: 연구실 소개, 지도교수 + **연구 분야 섹션 포함** (연혁 항목 없음) / Curriculum: 학부·대학원 교육과정 소개 |
+| Members | `/members` (Current Members) · `/members/alumni` (Alumni) — 별도 페이지 + 드롭다운 | Current Members: 교수/박사·석사과정 등 재학 구성원 — 사진, 이름, 관심분야 / Alumni: 졸업생 소개 |
+| Projects | `/projects` (Current Projects) · `/projects/past` (Past Projects) — 별도 페이지 + 드롭다운 | Current Projects: 진행 중 프로젝트 / Past Projects: 완료된 과거 프로젝트 — 지원기관, 기간 |
 | Publications | `/publications` | 연도별 논문 목록, 저널/학회 필터 |
 | News | `/news` (+ `/news/[slug]`) | 세미나, 채용, 학회 소식 등 공지사항 |
 
