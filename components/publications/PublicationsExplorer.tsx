@@ -10,11 +10,13 @@ import {
 const TYPE_LABEL: Record<PublicationType, string> = {
   journal: "Journal",
   conference: "Conference",
+  patent: "Patent",
 };
 
 const TYPE_BADGE_CLASS: Record<PublicationType, string> = {
   journal: "bg-ewha-yellow-green text-ewha-green-900",
   conference: "bg-ewha-mint text-ewha-green-900",
+  patent: "bg-ewha-coral text-ewha-green-900",
 };
 
 type FilterValue = "all" | PublicationType;
@@ -23,6 +25,7 @@ const FILTERS: { value: FilterValue; label: string }[] = [
   { value: "all", label: "All" },
   { value: "journal", label: "Journal" },
   { value: "conference", label: "Conference" },
+  { value: "patent", label: "Patent" },
 ];
 
 export default function PublicationsExplorer({
@@ -37,6 +40,7 @@ export default function PublicationsExplorer({
       all: publications.length,
       journal: publications.filter((pub) => pub.type === "journal").length,
       conference: publications.filter((pub) => pub.type === "conference").length,
+      patent: publications.filter((pub) => pub.type === "patent").length,
     }),
     [publications]
   );
@@ -81,10 +85,27 @@ export default function PublicationsExplorer({
                   key={pub.id}
                   className="border-b border-gray-100 pb-4 last:border-none"
                 >
-                  <p className="font-medium text-gray-900">{pub.title}</p>
-                  <p className="mt-1 text-sm text-gray-600">
-                    {pub.authors} · {pub.venue}
-                  </p>
+                  {pub.type === "patent" ? (
+                    <>
+                      <p className="font-medium text-gray-900">{pub.titleKo}</p>
+                      {pub.titleEn ? (
+                        <p className="mt-1 text-sm text-gray-500">{pub.titleEn}</p>
+                      ) : null}
+                      <p className="mt-1 text-sm text-gray-600">
+                        {pub.authors} · {pub.date}
+                      </p>
+                      {pub.description ? (
+                        <p className="mt-2 text-sm text-gray-600">{pub.description}</p>
+                      ) : null}
+                    </>
+                  ) : (
+                    <>
+                      <p className="font-medium text-gray-900">{pub.title}</p>
+                      <p className="mt-1 text-sm text-gray-600">
+                        {pub.authors} · {pub.venue}
+                      </p>
+                    </>
+                  )}
                   <span
                     className={`mt-2 inline-block rounded-full px-3 py-1 text-xs font-medium ${TYPE_BADGE_CLASS[pub.type]}`}
                   >
