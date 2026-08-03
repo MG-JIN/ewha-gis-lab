@@ -3,6 +3,7 @@ import { getNewsList } from "@/lib/news";
 import { getPublications } from "@/lib/publications";
 import { getCurrentProjects } from "@/lib/projects";
 import Card from "@/components/ui/Card";
+import LocationSection from "@/components/home/LocationSection";
 
 export default function Home() {
   const recentNews = getNewsList().slice(0, 3);
@@ -96,6 +97,8 @@ export default function Home() {
           </ul>
         </div>
       </section>
+
+      <LocationSection />
     </div>
   );
 }
