@@ -69,7 +69,7 @@ export default function Header() {
             className="flex flex-col leading-tight whitespace-nowrap"
             style={{ fontFamily: "var(--font-ewha-brand)" }}
           >
-            <span className="text-xs font-bold text-white">이화여자대학교</span>
+            <span className="text-base font-bold text-white">이화여자대학교</span>
             <span className="text-base font-extrabold text-white">
               공간정보연구실
             </span>
