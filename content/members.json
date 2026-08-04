@@ -12,7 +12,7 @@
       "공간정보 교육"
     ],
     "email": "ykang@ewha.ac.kr",
-    "photo": ""
+    "photo": "yangk.png"
   },
   {
     "id": "phd-yoon-jiyoung",
@@ -21,7 +21,7 @@
     "category": "phd",
     "interests": ["GeoAI"],
     "email": "jyyoon.gis@gmail.com",
-    "photo": ""
+    "photo": "jyyoon.png"
   },
   {
     "id": "phd-park-soyeon",
@@ -30,7 +30,7 @@
     "category": "phd",
     "interests": ["GeoAI"],
     "email": "soy8147@gmail.com",
-    "photo": ""
+    "photo": "soy.jpg"
   },
   {
     "id": "phd-lee-jiyoon",
@@ -39,7 +39,7 @@
     "category": "combined-ms-phd",
     "interests": [],
     "email": "jiyoon821@ewha.ac.kr",
-    "photo": ""
+    "photo": "jiyoon.jpg"
   },
   {
     "id": "ms-kim-hyeayeon",
@@ -47,7 +47,7 @@
     "role": "석사과정 (現 뷔나에너지 코리아)",
     "category": "ms",
     "email": "kimhyeahyun@gmail.com",
-    "photo": ""
+    "photo": "kinhy.png"
   },
   {
     "id": "ms-kim-jiwon",
@@ -55,7 +55,7 @@
     "role": "석사과정",
     "category": "ms",
     "email": "kimjiwon4007@ewha.ac.kr",
-    "photo": ""
+    "photo": "jiwon.jpg"
   },
   {
     "id": "ms-ha-seungju",
@@ -63,7 +63,7 @@
     "role": "석사과정",
     "category": "ms",
     "email": "sjooha@hanmail.net",
-    "photo": ""
+    "photo": "sjoo.jpg"
   },
   {
     "id": "ms-ha-jiwoo",
@@ -71,7 +71,7 @@
     "role": "석사과정",
     "category": "ms",
     "email": "jiou0802@naver.com",
-    "photo": ""
+    "photo": "jiou.jpg"
   },
   {
     "id": "ms-kang-yeonsoo",
@@ -79,7 +79,7 @@
     "role": "석사과정",
     "category": "ms",
     "email": "ysoo17@ewhain.net",
-    "photo": ""
+    "photo": "ysoo.jpg"
   },
   {
     "id": "ms-jang-minji",
@@ -87,7 +87,7 @@
     "role": "석사과정",
     "category": "ms",
     "email": "mjm0494@naver.com",
-    "photo": ""
+    "photo": "mjm.png"
   },
   {
     "id": "ms-yoon-seohyeon",
@@ -95,7 +95,7 @@
     "role": "석사과정",
     "category": "ms",
     "email": "tjgus_54@ewha.ac.kr",
-    "photo": ""
+    "photo": "tigus.png"
   },
   {
     "id": "ms-kwon-eunhyeon",
@@ -103,7 +103,7 @@
     "role": "석사과정",
     "category": "ms",
     "email": "22keh@ewhain.net",
-    "photo": ""
+    "photo": "keh.jpg"
   },
   {
     "id": "combined-jin-minkyung",
