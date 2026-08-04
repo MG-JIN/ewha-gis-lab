@@ -3,7 +3,7 @@
 
 /* TODO: 학교 홍보실로부터 이화체 웹폰트 파일(.woff2)을 받으면
    public/fonts/ 에 넣고, @font-face로 등록한 뒤
-   --font-ewha-brand 값만 'EwhaFont'로 교체하면 됨 */
+   --font-sans 값만 'EwhaFont'로 교체하면 됨 */
 
 @theme {
   /* Primary - Ewha Green (H156°, 900 = 공식 Primary #00462A 고정) */
@@ -28,8 +28,13 @@
   --color-ewha-mint: #36aebc;
   --color-ewha-coral: #f27367;
 
-  /* 브랜드 폰트: 이화체 웹폰트 도입 전 임시값 */
-  --font-ewha-brand: "Pretendard", "Noto Sans KR", sans-serif;
+  /* 브랜드 폰트: 이화체 웹폰트 도입 전 임시값. font-sans 유틸리티 및
+     사이트 기본 서체로 전역 적용됨 */
+  --font-sans: "Pretendard", "Noto Sans KR", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
 }
 
 /* Curriculum 페이지 제목(학부/대학원 공용). prose h3(기본 사이즈, 1.25em)보다 2pt 크게. */

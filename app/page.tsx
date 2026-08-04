@@ -38,7 +38,7 @@ export default function Home() {
         <div className="grid gap-4 sm:grid-cols-3">
           {recentNews.map((post) => (
             <Link key={post.slug} href={`/news/${post.slug}`}>
-              <Card>
+              <Card className="bg-ewha-pear-blossom">
                 <p className="text-xs text-gray-400">{post.date}</p>
                 <p className="mt-2 font-medium text-gray-900">{post.title}</p>
                 {post.excerpt ? (

@@ -23,7 +23,7 @@ export default function RootLayout({
           href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css"
         />
       </head>
-      <body className="flex min-h-screen flex-col bg-gray-50 text-gray-900 antialiased">
+      <body className="flex min-h-screen flex-col bg-white text-gray-900 antialiased">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

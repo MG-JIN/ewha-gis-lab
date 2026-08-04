@@ -67,7 +67,7 @@ export default function Header() {
           </span>
           <span
             className="flex flex-col leading-tight whitespace-nowrap"
-            style={{ fontFamily: "var(--font-ewha-brand)" }}
+            style={{ fontFamily: "var(--font-sans)" }}
           >
             <span className="text-base font-bold text-white">이화여자대학교</span>
             <span className="text-base font-extrabold text-white">
