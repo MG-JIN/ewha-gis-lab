@@ -24,11 +24,10 @@
 .DS_Store
 *.pem
 
-# local Claude Code settings (settings.local.json stays ignored; commands/ and settings.json are shared)
+# local Claude Code settings (commands/ stays shared; settings.json and settings.local.json are local-only)
 .claude/*
 !.claude/commands/
 !.claude/commands/**
-!.claude/settings.json
 
 # debug
 npm-debug.log*
