@@ -18,6 +18,19 @@ function wrapNewsImages(rawHtml: string): string {
   );
 }
 
+function wrapNewsAttachments(rawHtml: string): string {
+  return rawHtml.replace(
+    /<a href="(\/files\/[^"]+\.(hwp|pdf))">([^<]+)<\/a>/g,
+    (_match, href, ext, text) => {
+      const attr =
+        ext === "pdf"
+          ? 'target="_blank" rel="noopener noreferrer"'
+          : "download";
+      return `<a href="${BASE_PATH}${href}" ${attr}>📎 ${text}</a>`;
+    }
+  );
+}
+
 export interface NewsSummary {
   slug: string;
   title: string;
@@ -71,6 +84,6 @@ export async function getNewsBySlug(slug: string): Promise<NewsPost> {
     date: data.date as string,
     category: data.category as string | undefined,
     excerpt: data.excerpt as string | undefined,
-    contentHtml: wrapNewsImages(processedContent.toString()),
+    contentHtml: wrapNewsAttachments(wrapNewsImages(processedContent.toString())),
   };
 }
