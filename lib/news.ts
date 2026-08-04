@@ -3,8 +3,20 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
+import { BASE_PATH } from "@/lib/site";
 
 const newsDirectory = path.join(process.cwd(), "content/news");
+
+const NEWS_IMAGE_CLASS =
+  "w-full rounded-md border border-gray-200 cursor-zoom-in transition-opacity hover:opacity-90";
+
+function wrapNewsImages(rawHtml: string): string {
+  return rawHtml.replace(
+    /<a href="(\/images\/[^"]+)">\s*<img src="(\/images\/[^"]+)" alt="([^"]*)">\s*<\/a>/g,
+    (_match, fullSrc, thumbSrc, alt) =>
+      `<a href="${BASE_PATH}${fullSrc}" target="_blank" rel="noopener noreferrer" class="block"><img src="${BASE_PATH}${thumbSrc}" alt="${alt}" loading="lazy" class="${NEWS_IMAGE_CLASS}" /></a>`
+  );
+}
 
 export interface NewsSummary {
   slug: string;
@@ -59,6 +71,6 @@ export async function getNewsBySlug(slug: string): Promise<NewsPost> {
     date: data.date as string,
     category: data.category as string | undefined,
     excerpt: data.excerpt as string | undefined,
-    contentHtml: processedContent.toString(),
+    contentHtml: wrapNewsImages(processedContent.toString()),
   };
 }
