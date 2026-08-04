@@ -22,7 +22,7 @@ export default function Home() {
         </p>
         <Link
           href="/about"
-          className="mt-6 inline-block rounded-md bg-ewha-green-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-ewha-green-800"
+          className="mt-6 inline-block rounded-md bg-ewha-green-800 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-ewha-green-900"
         >
           About Us
         </Link>

@@ -52,7 +52,7 @@ export default function Header() {
   }
 
   return (
-    <header className="bg-ewha-green-900">
+    <header className="bg-ewha-green-800">
       <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-y-2 px-6 py-4">
         <Link href="/" className="flex shrink-0 items-center gap-4">
           <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white p-2 shadow-sm">
