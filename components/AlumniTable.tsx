@@ -8,6 +8,7 @@ export default function AlumniTable({
   members: Member[];
 }) {
   const thesisLabel = degree === "phd" ? "박사학위논문" : "석사학위논문";
+  const isMs = degree === "ms";
   const sorted = [...members].sort(
     (a, b) => (b.gradYear ?? 0) - (a.gradYear ?? 0)
   );
@@ -15,7 +16,21 @@ export default function AlumniTable({
   return (
     <>
       <div className="hidden overflow-hidden rounded-lg border border-gray-200 md:block">
-        <table className="w-full border-collapse text-sm">
+        <table
+          className={
+            isMs
+              ? "w-full table-fixed border-collapse text-sm"
+              : "w-full border-collapse text-sm"
+          }
+        >
+          {isMs ? (
+            <colgroup>
+              <col className="w-[12%]" />
+              <col className="w-[12%]" />
+              <col className="w-[58%]" />
+              <col className="w-[18%]" />
+            </colgroup>
+          ) : null}
           <thead>
             <tr className="bg-ewha-green-50">
               <th className="px-4 py-3 text-center font-bold text-ewha-green-900">
