@@ -52,36 +52,36 @@ export default function Header() {
   }
 
   return (
-    <header className="border-b border-ewha-grey bg-white">
+    <header className="bg-ewha-green-900">
       <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-y-2 px-6 py-4">
-        <Link href="/" className="flex shrink-0 items-center gap-3">
-          <Image
-            src={withBasePath("/images/ewha-symbol-mark.png")}
-            alt="이화여자대학교 심벌마크"
-            width={80}
-            height={80}
-            className="h-10 w-10 shrink-0"
-            priority
-          />
+        <Link href="/" className="flex shrink-0 items-center gap-4">
+          <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white p-2 shadow-sm">
+            <Image
+              src={withBasePath("/images/ewha-symbol-mark.png")}
+              alt="이화여자대학교 심벌마크"
+              width={80}
+              height={80}
+              className="h-full w-full"
+              priority
+            />
+          </span>
           <span
             className="flex flex-col leading-tight whitespace-nowrap"
             style={{ fontFamily: "var(--font-ewha-brand)" }}
           >
-            <span className="text-xs font-bold text-ewha-green-900">
-              이화여자대학교
-            </span>
-            <span className="text-base font-extrabold text-ewha-green-900">
+            <span className="text-xs font-bold text-white">이화여자대학교</span>
+            <span className="text-base font-extrabold text-white">
               공간정보연구실
             </span>
           </span>
         </Link>
-        <nav className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm font-medium text-gray-600">
+        <nav className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm font-medium text-white">
           <div className="relative" ref={aboutMenuRef}>
             <button
               type="button"
               onClick={() => toggleMenu("about")}
               aria-expanded={openMenu === "about"}
-              className="flex items-center gap-1 transition-colors hover:text-ewha-green-900"
+              className="flex items-center gap-1 transition-colors hover:text-ewha-green-50"
             >
               About Us
               <span aria-hidden="true" className="text-xs">
@@ -109,7 +109,7 @@ export default function Header() {
               type="button"
               onClick={() => toggleMenu("members")}
               aria-expanded={openMenu === "members"}
-              className="flex items-center gap-1 transition-colors hover:text-ewha-green-900"
+              className="flex items-center gap-1 transition-colors hover:text-ewha-green-50"
             >
               Members
               <span aria-hidden="true" className="text-xs">
@@ -137,7 +137,7 @@ export default function Header() {
               type="button"
               onClick={() => toggleMenu("projects")}
               aria-expanded={openMenu === "projects"}
-              className="flex items-center gap-1 transition-colors hover:text-ewha-green-900"
+              className="flex items-center gap-1 transition-colors hover:text-ewha-green-50"
             >
               Projects
               <span aria-hidden="true" className="text-xs">
@@ -164,7 +164,7 @@ export default function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className="transition-colors hover:text-ewha-green-900"
+              className="transition-colors hover:text-ewha-green-50"
             >
               {item.label}
             </Link>
