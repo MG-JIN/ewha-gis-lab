@@ -9,6 +9,7 @@ export interface Project {
   period: string;
   status: ProjectStatus;
   description?: string;
+  roadmapImage?: string;
 }
 
 export function getProjects(): Project[] {
