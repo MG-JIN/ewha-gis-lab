@@ -1,7 +1,7 @@
 ---
 title: "2025 공간빅데이터 분석 및 시각화 경진대회 참여 안내"
 date: "2025-12-02"
-category: "공지사항"
+category: "Announcement"
 excerpt: "2025 공간빅데이터 분석 및 시각화 경진대회 참여 안내"
 ---
 

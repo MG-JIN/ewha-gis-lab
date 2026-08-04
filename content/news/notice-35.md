@@ -1,7 +1,7 @@
 ---
 title: "6월 10일 GeoAI 전문가 특강 안내"
 date: "2025-05-30"
-category: "공지사항"
+category: "Announcement"
 excerpt: "6월 10일 GeoAI 전문가 특강 안내"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "2017 공공데이터 분석 및 시각화 경진대회 프로그램"
 date: "2017-11-27"
-category: "공지사항"
+category: "Announcement"
 excerpt: "2017 공공데이터 분석 및 시각화 경진대회 프로그램"
 ---
 

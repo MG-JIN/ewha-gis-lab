@@ -1,7 +1,7 @@
 ---
 title: "2023 공간 빅데이터 분석 및 시각화 경진대회 프로그램"
 date: "2023-12-07"
-category: "공지사항"
+category: "Announcement"
 excerpt: "2023 공간 빅데이터 분석 및 시각화 경진대회 프로그램"
 ---
 

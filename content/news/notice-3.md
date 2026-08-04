@@ -1,7 +1,7 @@
 ---
 title: "[학부소식] 교내 경진대회 개최 및 수상 소식"
 date: "2017-04-24"
-category: "소식"
+category: "Updates"
 excerpt: "교내 경진대회 개최 및 수상 소식"
 ---
 

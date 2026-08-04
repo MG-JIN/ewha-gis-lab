@@ -1,7 +1,7 @@
 ---
 title: "2021 공간빅데이터 분석 및 시각화 경진대회 개최"
 date: "2021-12-12"
-category: "공지사항"
+category: "Announcement"
 excerpt: "2021 공간빅데이터 분석 및 시각화 경진대회 개최"
 ---
 

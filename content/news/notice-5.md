@@ -1,7 +1,7 @@
 ---
 title: "공간정보 특성화대학원 계속지정 공고"
 date: "2017-04-24"
-category: "공지사항"
+category: "Announcement"
 excerpt: "공간정보 특성화대학원 계속지정 공고"
 ---
 

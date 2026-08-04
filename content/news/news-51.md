@@ -1,7 +1,7 @@
 ---
 title: "공간정보융합트랙 2024년 우수 TELOS트랙으로 선정"
 date: "2025-04-30"
-category: "소식"
+category: "Updates"
 excerpt: "공간정보융합트랙 우수 TELOS트랙 선정"
 ---
 

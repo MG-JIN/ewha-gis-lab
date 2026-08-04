@@ -1,7 +1,7 @@
 ---
 title: "손세린, 한국을 대표하여 ESRI의 Young Scholar Award 수상 (2017.07)"
 date: "2018-08-30"
-category: "소식"
+category: "Updates"
 excerpt: "ESRI의 Young Scholar Award 수상 (2017.07)"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "공간정보융합트랙 이수 설명회 (5월 21일 오후 5시)"
 date: "2025-05-13"
-category: "공지사항"
+category: "Announcement"
 excerpt: "공간정보융합트랙 이수 설명회 (5월 21일 오후 5시)"
 ---
 

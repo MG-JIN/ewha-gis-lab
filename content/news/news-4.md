@@ -1,7 +1,7 @@
 ---
 title: "[2017.06] 연구실 소식"
 date: "2018-08-30"
-category: "소식"
+category: "Updates"
 excerpt: "2017년 6월 연구실 소식"
 ---
 

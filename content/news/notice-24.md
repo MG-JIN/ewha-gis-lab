@@ -1,7 +1,7 @@
 ---
 title: "2022 공간 빅데이터 분석 및 시각화 경진대회 프로그램"
 date: "2022-12-07"
-category: "공지사항"
+category: "Announcement"
 excerpt: "2022 공간 빅데이터 분석 및 시각화 경진대회 프로그램"
 ---
 

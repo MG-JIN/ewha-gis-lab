@@ -1,7 +1,7 @@
 ---
 title: "2021년 공간정보융합트랙 이수 관련 특강 진행"
 date: "2021-07-14"
-category: "공지사항"
+category: "Announcement"
 excerpt: "2021년 공간정보융합트랙 이수 관련 특강 진행"
 ---
 

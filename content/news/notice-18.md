@@ -1,7 +1,7 @@
 ---
 title: "2020년 공간데이터 분석 및 시각화 경진대회 리플렛"
 date: "2020-12-13"
-category: "공지사항"
+category: "Announcement"
 excerpt: "2020년 공간데이터 분석 및 시각화 경진대회 리플렛"
 ---
 

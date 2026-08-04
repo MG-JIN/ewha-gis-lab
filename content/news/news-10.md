@@ -1,7 +1,7 @@
 ---
 title: "2017 공공데이터 분석 및 시각화 경진대회 개최"
 date: "2018-08-30"
-category: "소식"
+category: "Updates"
 excerpt: "2017 공공데이터 분석 및 시각화 경진대회 개최"
 ---
 

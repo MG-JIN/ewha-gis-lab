@@ -1,7 +1,7 @@
 ---
 title: "2019년도 공간정보 장학생 모집 공고 (~3.13마감)"
 date: "2019-02-28"
-category: "공지사항"
+category: "Announcement"
 excerpt: "2019년도 공간정보 장학생 모집 공고 (~3.13마감)"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "김나연, 한국에스리 제2회 맵 콘테스트에서 \"Where Award (3등상)\" 수상"
 date: "2018-08-30"
-category: "소식"
+category: "Updates"
 excerpt: "한국에스리 제2회 맵 콘테스트 \"Where Award (3등상)\" 수상"
 ---
 

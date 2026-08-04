@@ -1,7 +1,7 @@
 ---
 title: "공간정보융합트랙 이수 특강"
 date: "2026-05-11"
-category: "공지사항"
+category: "Announcement"
 excerpt: "공간정보융합트랙 이수 특강 안내"
 ---
 

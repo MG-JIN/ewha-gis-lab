@@ -1,7 +1,7 @@
 ---
 title: "ICT기술을 활용한 세계유산 현장체험학습 세미나 개최 (~6.15)"
 date: "2018-07-16"
-category: "공지사항"
+category: "Announcement"
 excerpt: "ICT기술을 활용한 세계유산 현장체험학습 세미나 개최 (~6.15)"
 ---
 

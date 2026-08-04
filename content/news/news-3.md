@@ -1,7 +1,7 @@
 ---
 title: "[수상소식] 손세린·박예림 씨, 한국ESRI '2017 제 1회 맵 콘테스트 공모전' 수상"
 date: "2018-08-30"
-category: "소식"
+category: "Updates"
 excerpt: "한국ESRI '2017 제 1회 맵 콘테스트 공모전' 수상"
 ---
 

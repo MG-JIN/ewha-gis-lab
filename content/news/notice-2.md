@@ -1,7 +1,7 @@
 ---
 title: "2016년 공공데이터 활용 및 시각화 경진대회 개최"
 date: "2017-03-27"
-category: "공지사항"
+category: "Announcement"
 excerpt: "2016년 공공데이터 활용 및 시각화 경진대회 개최"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "[졸업생 소식] 강애띠 박사 남계논문상 수상"
 date: "2018-08-30"
-category: "소식"
+category: "Updates"
 excerpt: "남계논문상 수상"
 ---
 
