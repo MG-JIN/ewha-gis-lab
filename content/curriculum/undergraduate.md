@@ -22,3 +22,11 @@ showTitle: false
 - **컴퓨터공학과**: 지정된 11개 교과목 중 6과목 선택 이수
 - **정보처리기사 자격증** 취득
 - **컴퓨터공학과 부전공을 병행하는 경우**: 공간정보 트랙 이수를 위한 6과목에 1과목을 추가로 이수. 컴퓨터공학 부전공 이수를 위해서는 2개 전공 영역에 걸쳐 최소 5과목 이상 이수 (부전공 신청은 별도 절차 필요)
+
+<a href="/images/track1.png" target="_blank" rel="noopener noreferrer">
+<img src="/images/track1.png" alt="공간정보융합트랙 소개 브로슈어 1페이지" />
+</a>
+
+<a href="/images/track2.png" target="_blank" rel="noopener noreferrer">
+<img src="/images/track2.png" alt="공간정보융합트랙 이수과목 및 자격증 시험일정표" />
+</a>

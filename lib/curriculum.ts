@@ -4,8 +4,12 @@ import matter from "gray-matter";
 import { remark } from "remark";
 import remarkGfm from "remark-gfm";
 import html from "remark-html";
+import { BASE_PATH } from "@/lib/site";
 
 const curriculumDirectory = path.join(process.cwd(), "content/curriculum");
+
+const CURRICULUM_IMAGE_CLASS =
+  "w-full rounded-md border border-gray-200 cursor-zoom-in transition-opacity hover:opacity-90";
 
 export interface CurriculumProgram {
   slug: string;
@@ -22,6 +26,22 @@ function wrapTablesAndExternalLinks(rawHtml: string): string {
     .replace(
       /<a href="http:\/\/www\.spacen\.or\.kr\/main\.do">/g,
       '<a href="http://www.spacen.or.kr/main.do" target="_blank" rel="noopener noreferrer">'
+    )
+    .replace(
+      '<a href="/images/track1.png" target="_blank" rel="noopener noreferrer">',
+      `<a href="${BASE_PATH}/images/track1-full.png" target="_blank" rel="noopener noreferrer" class="block">`
+    )
+    .replace(
+      '<a href="/images/track2.png" target="_blank" rel="noopener noreferrer">',
+      `<a href="${BASE_PATH}/images/track2-full.png" target="_blank" rel="noopener noreferrer" class="mt-4 block">`
+    )
+    .replace(
+      /<img src="\/images\/track1\.png" alt="([^"]*)" \/>/,
+      `<img src="${BASE_PATH}/images/track1-thumb.webp" alt="$1" loading="lazy" class="${CURRICULUM_IMAGE_CLASS}" />`
+    )
+    .replace(
+      /<img src="\/images\/track2\.png" alt="([^"]*)" \/>/,
+      `<img src="${BASE_PATH}/images/track2-thumb.webp" alt="$1" loading="lazy" class="${CURRICULUM_IMAGE_CLASS}" />`
     );
 }
 
