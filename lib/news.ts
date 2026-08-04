@@ -31,6 +31,13 @@ function wrapNewsAttachments(rawHtml: string): string {
   );
 }
 
+function wrapNewsExternalLinks(rawHtml: string): string {
+  return rawHtml.replace(
+    /<a href="(https?:\/\/[^"]+)">/g,
+    '<a href="$1" target="_blank" rel="noopener noreferrer">'
+  );
+}
+
 export interface NewsSummary {
   slug: string;
   title: string;
@@ -84,6 +91,8 @@ export async function getNewsBySlug(slug: string): Promise<NewsPost> {
     date: data.date as string,
     category: data.category as string | undefined,
     excerpt: data.excerpt as string | undefined,
-    contentHtml: wrapNewsAttachments(wrapNewsImages(processedContent.toString())),
+    contentHtml: wrapNewsExternalLinks(
+      wrapNewsAttachments(wrapNewsImages(processedContent.toString()))
+    ),
   };
 }
