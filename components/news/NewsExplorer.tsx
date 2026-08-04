@@ -6,7 +6,7 @@ import Card from "@/components/ui/Card";
 import type { NewsSummary } from "@/lib/news";
 
 const CATEGORY_BADGE_CLASS: Record<string, string> = {
-  Announcement: "bg-ewha-coral text-ewha-green-900",
+  Announcement: "bg-ewha-yellow-green text-ewha-green-900",
   Updates: "bg-ewha-blue text-ewha-green-900",
 };
 
