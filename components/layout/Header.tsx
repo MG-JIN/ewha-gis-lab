@@ -83,7 +83,7 @@ export default function Header() {
               aria-expanded={openMenu === "about"}
               className="flex items-center gap-1 transition-colors hover:text-ewha-green-50"
             >
-              About Us
+              About Lab
               <span aria-hidden="true" className="text-xs">
                 ▾
               </span>
