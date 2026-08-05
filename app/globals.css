@@ -31,6 +31,14 @@
   /* 브랜드 폰트: 이화체 웹폰트 도입 전 임시값. font-sans 유틸리티 및
      사이트 기본 서체로 전역 적용됨 */
   --font-sans: "Pretendard", "Noto Sans KR", sans-serif;
+
+  /* 헤더 로고 전용 폰트. '이화체'는 아직 public/fonts/에 폰트 파일이
+     없어 @font-face 등록 없이 이름만 최우선으로 넣어둠 — 브라우저가
+     '이화체'라는 이름의 폰트를 찾지 못하면 자동으로 Pretendard로
+     폴백된다. 추후 이화체 웹폰트(.woff2)를 받으면 public/fonts/에
+     넣고 @font-face로 '이화체' 이름을 등록하기만 하면 이 변수를
+     건드리지 않고도 자동 적용됨 */
+  --font-logo: "이화체", "Pretendard", "Noto Sans KR", sans-serif;
 }
 
 body {
