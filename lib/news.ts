@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
+import remarkGfm from "remark-gfm";
 import html from "remark-html";
 import { BASE_PATH } from "@/lib/site";
 
@@ -36,6 +37,12 @@ function wrapNewsExternalLinks(rawHtml: string): string {
     /<a href="(https?:\/\/[^"]+)">/g,
     '<a href="$1" target="_blank" rel="noopener noreferrer">'
   );
+}
+
+function wrapNewsTables(rawHtml: string): string {
+  return rawHtml
+    .replace(/<table>/g, '<div class="overflow-x-auto"><table>')
+    .replace(/<\/table>/g, "</table></div>");
 }
 
 export interface NewsSummary {
@@ -83,7 +90,7 @@ export async function getNewsBySlug(slug: string): Promise<NewsPost> {
     "utf8"
   );
   const { data, content } = matter(fileContents);
-  const processedContent = await remark().use(html).process(content);
+  const processedContent = await remark().use(remarkGfm).use(html).process(content);
 
   return {
     slug,
@@ -91,8 +98,10 @@ export async function getNewsBySlug(slug: string): Promise<NewsPost> {
     date: data.date as string,
     category: data.category as string | undefined,
     excerpt: data.excerpt as string | undefined,
-    contentHtml: wrapNewsExternalLinks(
-      wrapNewsAttachments(wrapNewsImages(processedContent.toString()))
+    contentHtml: wrapNewsTables(
+      wrapNewsExternalLinks(
+        wrapNewsAttachments(wrapNewsImages(processedContent.toString()))
+      )
     ),
   };
 }
