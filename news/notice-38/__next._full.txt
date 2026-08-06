@@ -1,0 +1,46 @@
+1:"$Sreact.fragment"
+2:I[93983,["/ewha-gis-lab/_next/static/chunks/1ryw-7dm5idks.js","/ewha-gis-lab/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+3:I[39756,["/ewha-gis-lab/_next/static/chunks/1ryw-7dm5idks.js","/ewha-gis-lab/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+4:I[37457,["/ewha-gis-lab/_next/static/chunks/1ryw-7dm5idks.js","/ewha-gis-lab/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+6:I[97367,["/ewha-gis-lab/_next/static/chunks/1ryw-7dm5idks.js","/ewha-gis-lab/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+a:I[97367,["/ewha-gis-lab/_next/static/chunks/1ryw-7dm5idks.js","/ewha-gis-lab/_next/static/chunks/14mrh2-p_w84d.js"],"ViewportBoundary"]
+c:I[97367,["/ewha-gis-lab/_next/static/chunks/1ryw-7dm5idks.js","/ewha-gis-lab/_next/static/chunks/14mrh2-p_w84d.js"],"MetadataBoundary"]
+e:I[68027,["/ewha-gis-lab/_next/static/chunks/1ryw-7dm5idks.js","/ewha-gis-lab/_next/static/chunks/14mrh2-p_w84d.js"],"default",1]
+:HL["/ewha-gis-lab/_next/static/chunks/0vmgxkv3n932_.css","style"]
+:HL["https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css","style"]
+0:{"P":null,"c":["","news","notice-38",""],"q":"","i":false,"f":[[["",{"children":["news",{"children":[["slug","notice-38","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/ewha-gis-lab/_next/static/chunks/0vmgxkv3n932_.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/ewha-gis-lab/_next/static/chunks/1ryw-7dm5idks.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/ewha-gis-lab/_next/static/chunks/14mrh2-p_w84d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css"}]}],["$","body",null,{"className":"flex min-h-screen flex-col bg-white text-gray-900 antialiased","children":[["$","$L2",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"border-t border-ewha-grey bg-white","children":["$","div",null,{"className":"mx-auto max-w-5xl px-6 py-10 text-sm text-gray-500","children":[["$","p",null,{"className":"font-semibold text-ewha-green-900","children":["Ewha GIS Lab ",["$","span",null,{"className":"font-normal text-gray-500","children":"(공간정보연구실)"}]]}],["$","p",null,{"className":"mt-2","children":"03760 서울특별시 서대문구 이화여대길 52 이화여자대학교 교육관 A동 318호"}],["$","p",null,{"className":"mt-1","children":"Tel. 02-3277-2658 · FAX. 02-3277-2659"}],["$","p",null,{"className":"mt-6 text-xs text-gray-400","children":["© ",2026," Ewha GIS Lab. All rights reserved."]}]]}]}]]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",null,["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,null]},null,false,"$@9"]},null,false,"$@9"]},null,false,null],["$","$1","h",{"children":[null,["$","$La",null,{"children":"$Lb"}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Ld"}]}]}],null]}],false]],"m":"$undefined","G":["$e",[["$","link","0",{"rel":"stylesheet","href":"/ewha-gis-lab/_next/static/chunks/0vmgxkv3n932_.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"idXURa7qiMgg8wB5amI4L"}
+f:[]
+9:"$Wf"
+10:I[22016,["/ewha-gis-lab/_next/static/chunks/1ryw-7dm5idks.js","/ewha-gis-lab/_next/static/chunks/14mrh2-p_w84d.js"],""]
+11:T937,<p>2025년 공간빅데이터 분석 및 시각화 경진대회가 아래와 같이 개최됩니다. 공간정보 분석 프로젝트 발표와 함께 관련 분야에 취업한 선배 특강도 준비되어 있으니 관심있는 학생들의 많은 참여 바랍니다.</p>
+<p><strong>목적</strong>: QGIS, 구글, ArcGIS, CartoDB 등 공간정보 소프트웨어를 이용하여 공간 빅데이터를 분석하고 시각화하여 공간정보 활용능력 함양</p>
+<p><strong>일시</strong>: 2025년 12월 17일 (수) 17:00</p>
+<p><strong>장소</strong>: 교육관 B동 김애마홀</p>
+<p><strong>행사 일정</strong></p>
+<p><strong>17:00 개회식</strong></p>
+<ul>
+<li>사회: 강연수 (사회과교육과 지리전공 대학원 석사과정)</li>
+<li>개회사: 강영옥 (사회과교육과 교수, 공간정보융합트랙 지도교수)</li>
+<li>축사: 박은혜 (사범대학 학장)</li>
+</ul>
+<p><strong>17:15 출품작 발표</strong></p>
+<ul>
+<li>요즘 20대는 이렇게 산다! 서울시 20대 라이프스타일 분석 (이윤지, 유아린, 나예진)</li>
+<li>서울시 장애인 이동권 분석: 지하철·버스 접근성을 기반으로 한 차별구조 (이지윤, 정혜인, 채수연, 배우리)</li>
+<li>Sentinel 2 위성과 딥러닝을 활용한 경북 의성 일대 산불피해 탐지 및 심각도 분석 (권은현, 하승희)</li>
+<li>딥러닝을 활용한 북한 남포시 토지이용변화 및 남포항 확장 시계열 분석 (안서연, 진민경)</li>
+<li>딥러닝 모델 전이학습을 통한 아프리카 사헬지대 비포장 도로망 추출 모델 개발 및 홍수 취약 구간 탐지 (엄지민, 장유림)</li>
+</ul>
+<p><strong>18:20 선배소개 및 공간정보분야 취업특강</strong></p>
+<ul>
+<li>박소연: 현대오토에버 내비품질팀 책임</li>
+<li>윤지영: KT Decision Intelligence Lab 선임</li>
+<li>김현덕: 한국국토정보공사 공간정보연구원 연구위원</li>
+</ul>
+<p><strong>19:00 수상작 발표</strong></p>
+<p><a href="/ewha-gis-lab/images/TK3.webp" target="_blank" rel="noopener noreferrer" class="block"><img src="/ewha-gis-lab/images/TK3.webp" alt="2025 공간 빅데이터 분석 및 시각화 경진대회 포스터" loading="lazy" class="w-full rounded-md border border-gray-200 cursor-zoom-in transition-opacity hover:opacity-90" /></a></p>
+5:["$","div",null,{"className":"mx-auto max-w-3xl px-6 py-16","children":[["$","$L10",null,{"href":"/news","className":"text-sm text-gray-500 hover:text-gray-900","children":"← Back to News"}],["$","div",null,{"className":"mt-6 flex items-center gap-3 text-xs text-gray-400","children":[["$","span",null,{"children":"2025-12-11"}],["$","span",null,{"className":"rounded-full bg-gray-100 px-2 py-0.5 text-gray-600","children":"Announcement"}]]}],["$","h1",null,{"className":"mt-3 text-2xl font-bold text-gray-900","children":"2025 공간 빅데이터 분석 및 시각화 경진대회 프로그램 안내"}],["$","div",null,{"className":"prose prose-gray mt-8 max-w-none","dangerouslySetInnerHTML":{"__html":"$11"}}]]}]
+b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+8:null
+d:[["$","title","0",{"children":"Ewha GIS Lab"}],["$","meta","1",{"name":"description","content":"이화여자대학교 공간정보연구실(GIS Lab) 홈페이지"}]]
