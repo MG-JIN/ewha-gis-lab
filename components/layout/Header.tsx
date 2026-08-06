@@ -66,8 +66,8 @@ export default function Header() {
             />
           </span>
           <span className="flex flex-col font-logo leading-tight whitespace-nowrap">
-            <span className="text-base font-semibold text-white">이화여자대학교</span>
-            <span className="text-base font-bold text-white">공간정보연구실</span>
+            <span className="text-base font-normal text-white">이화여자대학교</span>
+            <span className="text-base font-normal text-white">공간정보연구실</span>
           </span>
         </Link>
         <nav className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm font-medium text-white">

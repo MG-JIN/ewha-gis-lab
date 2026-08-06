@@ -10,14 +10,14 @@ export default function Hero() {
         배경 이미지: AVIF 우선 적용. 현재 대체 포맷(.jpg/.webp) 원본 파일이
         없어 <picture>의 <img> fallback도 동일한 AVIF 파일을 가리킴 — 구형
         브라우저 대응이 필요해지면, 아래 <source>보다 "뒤"에 예:
-        <source srcSet={withBasePath("/images/hero-bg.webp")} type="image/webp" />
+        <source srcSet={withBasePath("/images/hero2.webp")} type="image/webp" />
         와 img의 src를 .jpg 등으로 추가/교체하면 자동으로 폴백된다.
       */}
       <picture className="absolute inset-0 h-full w-full">
-        <source srcSet={withBasePath("/images/hero-bg.avif")} type="image/avif" />
+        <source srcSet={withBasePath("/images/hero2.avif")} type="image/avif" />
         <img
-          src={withBasePath("/images/hero-bg.avif")}
-          alt="이화여자대학교 공간정보연구실 — 도시 항공뷰"
+          src={withBasePath("/images/hero2.avif")}
+          alt="이화여자대학교 공간정보연구실 — 어두운 배경의 지도 시각화"
           className="h-full w-full object-cover"
         />
       </picture>
