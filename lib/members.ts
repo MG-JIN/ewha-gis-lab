@@ -11,6 +11,7 @@ export type MemberCategory =
 export interface Member {
   id: string;
   name: string;
+  nameEn?: string;
   role: string;
   category: MemberCategory;
   interests?: string[];
