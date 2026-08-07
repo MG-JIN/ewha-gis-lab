@@ -12,7 +12,17 @@
       "공간정보 교육"
     ],
     "email": "ykang@ewha.ac.kr",
-    "photo": "yangk.png"
+    "photo": "yangk.png",
+    "education": ["The Ohio State University Ph.D."],
+    "experience": [
+      { "title": "서울시 스마트도시 위원회 위원", "period": "2018-12-21 ~ 2022-12-20" },
+      { "title": "서울시 빅데이터 심의위원회 위원", "period": "2018-03-15 ~ 2022-03-14" },
+      { "title": "대한공간정보학회 회장", "period": "2017-06-01 ~ 2019-12-31" },
+      { "title": "국토교통과학기술위원회 위원", "period": "2016-12-13 ~ 2020-12-12" },
+      { "title": "서울시 정보화전략위원회 위원", "period": "2014-10-30 ~ 2016-10-30" },
+      { "title": "한국지도학회 회장", "period": "2013-01-01 ~ 2014-12-31" },
+      { "title": "서울시정개발연구원 연구위원", "period": "1995-04-01 ~ 2007-08-31" }
+    ]
   },
   {
     "id": "phd-yoon-jiyoung",
