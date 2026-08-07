@@ -21,6 +21,8 @@ export interface Member {
   gradYear?: number;
   thesis?: string;
   affiliation?: string;
+  education?: string[];
+  experience?: { title: string; period: string }[];
 }
 
 export function getMembers(): Member[] {

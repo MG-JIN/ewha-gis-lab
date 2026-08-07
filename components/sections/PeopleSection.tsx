@@ -16,13 +16,6 @@ const MEMBER_GROUPS: { category: MemberCategory; label: string }[] = [
   { category: "combined-bs-ms", label: "Combined BS/MS" },
 ];
 
-// NOTE: content/members.json에는 아직 교수 약력용 Education/Experience 데이터가
-// 없다. 실제 값을 지어내지 않고 구조만 잡아둔 상태 — lib/members.ts의 Member
-// 타입에 education?: string[] / experience?: string[]를 추가하고 아래 두 배열을
-// member.education / member.experience로 교체하면 된다.
-const EDUCATION_PLACEHOLDER: string[] = [];
-const EXPERIENCE_PLACEHOLDER: string[] = [];
-
 function BulletList({ items }: { items: string[] }) {
   if (items.length === 0) {
     return <p className="text-sm text-gray-400">등록된 정보가 없습니다.</p>;
@@ -33,6 +26,30 @@ function BulletList({ items }: { items: string[] }) {
         <li key={item} className="flex items-start gap-2 text-sm text-gray-600">
           <span className="mt-1.5 h-1.5 w-1.5 shrink-0 bg-ewha-green-700" aria-hidden="true" />
           {item}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+// 데이터 순서(최신순)를 그대로 렌더링한다 — 여기서 재정렬하지 않음.
+function ExperienceList({
+  items,
+}: {
+  items: { title: string; period: string }[];
+}) {
+  if (items.length === 0) {
+    return <p className="text-sm text-gray-400">등록된 정보가 없습니다.</p>;
+  }
+  return (
+    <ul className="space-y-3">
+      {items.map((item) => (
+        <li key={`${item.title}-${item.period}`} className="flex items-start gap-2">
+          <span className="mt-1.5 h-1.5 w-1.5 shrink-0 bg-ewha-green-700" aria-hidden="true" />
+          <div>
+            <p className="text-sm font-bold text-gray-900">{item.title}</p>
+            <p className="text-xs text-gray-500">{item.period}</p>
+          </div>
         </li>
       ))}
     </ul>
@@ -75,7 +92,7 @@ function ProfessorBlock({ professor }: { professor: Member }) {
             Education
           </h4>
           <div className="mt-3">
-            <BulletList items={EDUCATION_PLACEHOLDER} />
+            <BulletList items={professor.education ?? []} />
           </div>
         </div>
 
@@ -84,7 +101,7 @@ function ProfessorBlock({ professor }: { professor: Member }) {
             Experience
           </h4>
           <div className="mt-3">
-            <BulletList items={EXPERIENCE_PLACEHOLDER} />
+            <ExperienceList items={professor.experience ?? []} />
           </div>
         </div>
       </div>
