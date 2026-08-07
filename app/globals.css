@@ -39,10 +39,65 @@
      넣고 @font-face로 '이화체' 이름을 등록하기만 하면 이 변수를
      건드리지 않고도 자동 적용됨 */
   --font-logo: "이화체", "Pretendard", "Noto Sans KR", sans-serif;
+
+  /* 싱글페이지 섹션 교차 배경용 tint. ewha-green-100의 의미론적 별칭 —
+     새 색상이 아니라 기존 토큰을 가리키기만 함. 강도 조절은 이 한 줄만 수정 */
+  --color-section-tint: var(--color-ewha-green-100);
 }
 
 body {
   font-family: var(--font-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* 사이드바 앵커 이동 시 모바일 sticky 상단 바에 섹션 제목이 가려지지 않도록
+   보정. 데스크톱은 사이드바가 좌측에 있어 상단 겹침이 없으므로 0으로 리셋 */
+section[id] {
+  scroll-margin-top: 4rem;
+}
+
+@media (min-width: 1024px) {
+  section[id] {
+    scroll-margin-top: 0;
+  }
+}
+
+/* 스크롤 등장(fade-up) 애니메이션.
+   html.js-ready가 없으면(JS 미실행/실패) .reveal은 기본값(불투명)을 유지해
+   콘텐츠가 항상 보인다 — JS가 붙어야만 opacity:0 초기상태가 적용된다. */
+.reveal {
+  opacity: 1;
+  transform: none;
+}
+
+html.js-ready .reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 0.6s ease-out,
+    transform 0.6s ease-out;
+}
+
+html.js-ready .reveal.reveal-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.js-ready .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 
 /* Curriculum 페이지 제목(학부/대학원 공용). prose h3(기본 사이즈, 1.25em)보다 2pt 크게. */

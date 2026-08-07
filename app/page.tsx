@@ -1,92 +1,68 @@
-import Link from "next/link";
-import { getNewsList } from "@/lib/news";
+import HeroSection from "@/components/sections/HeroSection";
+import AboutSection from "@/components/sections/AboutSection";
+import ProjectsSection from "@/components/sections/ProjectsSection";
+import PeopleSection from "@/components/sections/PeopleSection";
+import PublicationsSection from "@/components/sections/PublicationsSection";
+import CurriculumSection from "@/components/sections/CurriculumSection";
+import NewsSection from "@/components/sections/NewsSection";
+import ContactSection from "@/components/sections/ContactSection";
+import { getCurrentProjects, getPastProjects } from "@/lib/projects";
+import { getMembersByCategory, getAlumniByDegree } from "@/lib/members";
 import { getPublications } from "@/lib/publications";
-import { getCurrentProjects } from "@/lib/projects";
-import Card from "@/components/ui/Card";
-import Hero from "@/components/home/Hero";
-import LocationSection from "@/components/home/LocationSection";
+import { getCurriculumPrograms } from "@/lib/curriculum";
+import { getNewsList } from "@/lib/news";
 
-export default function Home() {
-  const recentNews = getNewsList().slice(0, 3);
-  const recentPublications = getPublications().slice(0, 3);
-  const currentProjects = getCurrentProjects();
+export default async function Home() {
+  const [
+    currentProjects,
+    pastProjects,
+    faculty,
+    phdMembers,
+    combinedMsPhdMembers,
+    msMembers,
+    combinedBsMsMembers,
+    phdAlumni,
+    msAlumni,
+    publications,
+    curriculumPrograms,
+    newsList,
+  ] = await Promise.all([
+    Promise.resolve(getCurrentProjects()),
+    Promise.resolve(getPastProjects()),
+    Promise.resolve(getMembersByCategory("faculty")),
+    Promise.resolve(getMembersByCategory("phd")),
+    Promise.resolve(getMembersByCategory("combined-ms-phd")),
+    Promise.resolve(getMembersByCategory("ms")),
+    Promise.resolve(getMembersByCategory("combined-bs-ms")),
+    Promise.resolve(getAlumniByDegree("phd")),
+    Promise.resolve(getAlumniByDegree("ms")),
+    Promise.resolve(getPublications()),
+    getCurriculumPrograms(),
+    Promise.resolve(getNewsList()),
+  ]);
+
+  const membersByCategory: Record<string, typeof phdMembers> = {
+    phd: phdMembers,
+    "combined-ms-phd": combinedMsPhdMembers,
+    ms: msMembers,
+    "combined-bs-ms": combinedBsMsMembers,
+  };
 
   return (
     <>
-      <Hero />
-      <div className="mx-auto max-w-5xl px-6 py-16">
-        <section className="mt-16">
-          <div className="mb-4 flex items-center justify-between">
-            <h2 className="text-xl font-semibold text-ewha-green-900">News</h2>
-            <Link href="/news" className="text-sm text-gray-500 hover:text-ewha-green-900">
-              View all
-            </Link>
-          </div>
-          <div className="grid gap-4 sm:grid-cols-3">
-            {recentNews.map((post) => (
-              <Link key={post.slug} href={`/news/${post.slug}`}>
-                <Card className="bg-ewha-pear-blossom">
-                  <p className="text-xs text-gray-400">{post.date}</p>
-                  <p className="mt-2 font-medium text-gray-900">{post.title}</p>
-                  {post.excerpt ? (
-                    <p className="mt-2 text-sm text-gray-500">{post.excerpt}</p>
-                  ) : null}
-                </Card>
-              </Link>
-            ))}
-          </div>
-        </section>
-
-        <section className="mt-16 grid gap-10 sm:grid-cols-2">
-          <div>
-            <div className="mb-4 flex items-center justify-between">
-              <h2 className="text-xl font-semibold text-ewha-green-900">
-                Current Projects
-              </h2>
-              <Link
-                href="/projects"
-                className="text-sm text-gray-500 hover:text-ewha-green-900"
-              >
-                View all
-              </Link>
-            </div>
-            <ul className="space-y-3">
-              {currentProjects.map((project) => (
-                <li key={project.id} className="text-sm text-gray-700">
-                  <span className="font-medium text-gray-900">{project.title}</span>
-                  <span className="block text-gray-500">{project.funder}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <div className="mb-4 flex items-center justify-between">
-              <h2 className="text-xl font-semibold text-ewha-green-900">
-                Recent Publications
-              </h2>
-              <Link
-                href="/publications"
-                className="text-sm text-gray-500 hover:text-ewha-green-900"
-              >
-                View all
-              </Link>
-            </div>
-            <ul className="space-y-3">
-              {recentPublications.map((pub) => (
-                <li key={pub.id} className="text-sm text-gray-700">
-                  <span className="font-medium text-gray-900">{pub.title}</span>
-                  <span className="block text-gray-500">
-                    {pub.authors} · {pub.venue} ({pub.year})
-                  </span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </section>
-
-        <LocationSection />
-      </div>
+      <HeroSection />
+      <AboutSection />
+      <ProjectsSection currentProjects={currentProjects} pastProjects={pastProjects} />
+      <PeopleSection
+        faculty={faculty}
+        membersByCategory={membersByCategory}
+        phdAlumni={phdAlumni}
+        msAlumni={msAlumni}
+      />
+      <PublicationsSection publications={publications} />
+      <CurriculumSection programs={curriculumPrograms} />
+      <NewsSection newsList={newsList} />
+      <ContactSection />
     </>
   );
 }
