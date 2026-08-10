@@ -4,10 +4,19 @@ import SectionHeader from "@/components/ui/SectionHeader";
 import Tab from "@/components/ui/Tab";
 import Card from "@/components/ui/Card";
 import Reveal from "@/components/ui/Reveal";
+import PastProjectAccordionItem from "@/components/sections/PastProjectAccordionItem";
 import { IconFolder } from "@/components/ui/icons";
 import { withBasePath } from "@/lib/site";
 import { getSectionMeta } from "@/lib/sections";
 import type { Project } from "@/lib/projects";
+
+// 이 3건만 "제목 클릭 시 펼쳐지는" 아코디언으로 표시하고, 나머지는 기존
+// flat 목록(PastProjectListItem)을 그대로 유지한다.
+const ACCORDION_PROJECT_IDS = new Set([
+  "crime-fear-streetview-2023",
+  "jeonju-pedestrian-2021",
+  "cnn-tourism-image-2019",
+]);
 
 function ProjectDetails({ project }: { project: Project }) {
   return (
@@ -84,9 +93,13 @@ function PastProjectListItem({ project }: { project: Project }) {
 function PastProjectsPanel({ projects }: { projects: Project[] }) {
   return (
     <div className="divide-y divide-gray-100">
-      {projects.map((project) => (
-        <PastProjectListItem key={project.id} project={project} />
-      ))}
+      {projects.map((project) =>
+        ACCORDION_PROJECT_IDS.has(project.id) ? (
+          <PastProjectAccordionItem key={project.id} project={project} />
+        ) : (
+          <PastProjectListItem key={project.id} project={project} />
+        )
+      )}
     </div>
   );
 }
