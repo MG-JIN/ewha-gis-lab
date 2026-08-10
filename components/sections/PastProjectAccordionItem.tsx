@@ -36,18 +36,18 @@ export default function PastProjectAccordionItem({ project }: { project: Project
         <div className="mt-3 pl-9">
           <p className="text-sm text-gray-500">{project.funder}</p>
           <p className="mt-1 text-xs text-gray-400">{project.period}</p>
-          <p className="mt-3 text-sm text-gray-600">
-            {project.description ?? "설명 준비 중입니다."}
-          </p>
           {project.roadmapImage ? (
             <Image
               src={withBasePath(`/images/${project.roadmapImage}`)}
               alt={project.title}
               width={944}
               height={612}
-              className="mt-4 h-auto w-full rounded-md border border-gray-200"
+              className="mt-4 h-auto max-w-full rounded-md border border-gray-200"
             />
           ) : null}
+          <p className="mt-4 text-sm text-gray-600">
+            {project.description ?? "설명 준비 중입니다."}
+          </p>
         </div>
       ) : null}
     </div>
