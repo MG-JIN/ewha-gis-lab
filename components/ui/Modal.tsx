@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, type ReactNode } from "react";
+import Image from "next/image";
 
 export default function Modal({
   open,
@@ -77,6 +78,7 @@ export function ModalDetailLayout({
   title,
   subtitle,
   infoLine,
+  image,
   descriptionLabel,
   description,
   footer,
@@ -86,6 +88,7 @@ export function ModalDetailLayout({
   title: string;
   subtitle?: string;
   infoLine?: string;
+  image?: { src: string; alt: string };
   descriptionLabel: string;
   description: ReactNode;
   footer?: ReactNode;
@@ -105,6 +108,15 @@ export function ModalDetailLayout({
       <div className="mx-auto mt-6 h-px w-24 bg-gray-200" />
       {infoLine ? (
         <p className="mt-6 text-center text-sm text-gray-600">{infoLine}</p>
+      ) : null}
+      {image ? (
+        <Image
+          src={image.src}
+          alt={image.alt}
+          width={944}
+          height={612}
+          className="mt-6 h-auto max-w-full rounded-md border border-gray-200"
+        />
       ) : null}
       <div className="mt-6">
         <h3 className="text-sm font-semibold tracking-wide text-gray-900 uppercase">

@@ -4,19 +4,11 @@ import SectionHeader from "@/components/ui/SectionHeader";
 import Tab from "@/components/ui/Tab";
 import Card from "@/components/ui/Card";
 import Reveal from "@/components/ui/Reveal";
-import PastProjectAccordionItem from "@/components/sections/PastProjectAccordionItem";
+import PastProjectsPanel from "@/components/sections/PastProjectsPanel";
 import { IconFolder } from "@/components/ui/icons";
 import { withBasePath } from "@/lib/site";
 import { getSectionMeta } from "@/lib/sections";
 import type { Project } from "@/lib/projects";
-
-// 이 3건만 "제목 클릭 시 펼쳐지는" 아코디언으로 표시하고, 나머지는 기존
-// flat 목록(PastProjectListItem)을 그대로 유지한다.
-const ACCORDION_PROJECT_IDS = new Set([
-  "crime-fear-streetview-2023",
-  "jeonju-pedestrian-2021",
-  "cnn-tourism-image-2019",
-]);
 
 function ProjectDetails({ project }: { project: Project }) {
   return (
@@ -66,38 +58,6 @@ function CurrentProjectsPanel({ projects }: { projects: Project[] }) {
           <Card key={project.id}>
             <ProjectDetails project={project} />
           </Card>
-        )
-      )}
-    </div>
-  );
-}
-
-// 박스(카드) 없는 목록형. 아이콘 컬럼을 flex로 분리해 제목이 줄바꿈돼도
-// 두 번째 줄이 아이콘 아래가 아니라 텍스트 시작 위치에 맞춰지도록 했다
-// (hanging indent). description은 이 목록에는 표시하지 않는다(데이터는 유지).
-function PastProjectListItem({ project }: { project: Project }) {
-  return (
-    <div className="flex gap-3 py-3">
-      <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-ewha-green-50 text-ewha-green-900">
-        <IconFolder className="h-3.5 w-3.5" />
-      </span>
-      <p className="leading-relaxed">
-        <span className="text-gray-500">({project.period})</span>{" "}
-        <span className="font-bold text-ewha-green-900">{project.title}</span>{" "}
-        <span className="text-gray-400">({project.funder})</span>
-      </p>
-    </div>
-  );
-}
-
-function PastProjectsPanel({ projects }: { projects: Project[] }) {
-  return (
-    <div className="divide-y divide-gray-100">
-      {projects.map((project) =>
-        ACCORDION_PROJECT_IDS.has(project.id) ? (
-          <PastProjectAccordionItem key={project.id} project={project} />
-        ) : (
-          <PastProjectListItem key={project.id} project={project} />
         )
       )}
     </div>
