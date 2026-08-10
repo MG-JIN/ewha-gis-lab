@@ -130,6 +130,22 @@ function YearGroupedAccordion({
   );
 }
 
+// doi가 있으면 최우선(순수 DOI 문자열만 표시하고 클릭 시 doi.org로 이동),
+// 없고 url만 있으면 타입별 라벨로 대체 링크, 둘 다 없으면 undefined
+// (description의 "내용이 준비 중입니다." placeholder만 표시됨).
+function getPublicationLink(pub: Publication): { label: string; href: string } | undefined {
+  if (pub.doi) {
+    return { label: `DOI: ${pub.doi}`, href: `https://doi.org/${pub.doi}` };
+  }
+  if (pub.url) {
+    return {
+      label: pub.type === "journal" ? "원문 보기" : "자료집·학회 페이지",
+      href: pub.url,
+    };
+  }
+  return undefined;
+}
+
 function PublicationModalContent({
   pub,
   titleId,
@@ -157,6 +173,7 @@ function PublicationModalContent({
       meta={`(${pub.year})`}
       title={pub.title ?? ""}
       infoLine={[pub.authors, pub.venue].filter(Boolean).join(" · ")}
+      link={getPublicationLink(pub)}
       descriptionLabel="Description"
       description="내용이 준비 중입니다."
     />

@@ -79,6 +79,7 @@ export function ModalDetailLayout({
   subtitle,
   infoLine,
   image,
+  link,
   descriptionLabel,
   description,
   footer,
@@ -89,6 +90,7 @@ export function ModalDetailLayout({
   subtitle?: string;
   infoLine?: string;
   image?: { src: string; alt: string };
+  link?: { label: string; href: string };
   descriptionLabel: string;
   description: ReactNode;
   footer?: ReactNode;
@@ -117,6 +119,18 @@ export function ModalDetailLayout({
           height={612}
           className="mt-6 h-auto max-w-full rounded-md border border-gray-200"
         />
+      ) : null}
+      {link ? (
+        <p className="mt-6 text-center text-sm">
+          <a
+            href={link.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-ewha-green-900 underline hover:text-ewha-green-700"
+          >
+            {link.label}
+          </a>
+        </p>
       ) : null}
       <div className="mt-6">
         <h3 className="text-sm font-semibold tracking-wide text-gray-900 uppercase">

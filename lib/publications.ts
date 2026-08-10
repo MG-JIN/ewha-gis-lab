@@ -8,6 +8,8 @@ export interface Publication {
   authors: string;
   type: PublicationType;
   link?: string;
+  doi?: string;
+  url?: string;
   // journal / conference
   title?: string;
   venue?: string;
