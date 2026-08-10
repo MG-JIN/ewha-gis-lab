@@ -58,7 +58,7 @@ function ExperienceList({
 
 function ProfessorBlock({ professor }: { professor: Member }) {
   return (
-    <div className="flex flex-col items-center gap-8 md:flex-row md:items-start">
+    <div className="mx-auto flex max-w-3xl flex-col items-center gap-8 md:flex-row md:items-start md:gap-12">
       <div className="shrink-0">
         {professor.photo ? (
           <Image
