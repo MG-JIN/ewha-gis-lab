@@ -2,5 +2,5 @@
 2:I[27130,["/ewha-gis-lab/_next/static/chunks/0a0veqsnwu-1f.js","/ewha-gis-lab/_next/static/chunks/14mrh2-p_w84d.js","/ewha-gis-lab/_next/static/chunks/2_uc9-39e6rfr.js"],"default"]
 3:I[97367,["/ewha-gis-lab/_next/static/chunks/0a0veqsnwu-1f.js","/ewha-gis-lab/_next/static/chunks/14mrh2-p_w84d.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"anchor":"news"}],[["$","script","script-0",{"src":"/ewha-gis-lab/_next/static/chunks/2_uc9-39e6rfr.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"ZNTe7p082xzsH9Y6cqmxk"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"anchor":"news"}],[["$","script","script-0",{"src":"/ewha-gis-lab/_next/static/chunks/2_uc9-39e6rfr.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"S5pK6MjzTzkv0xFwuRtCV"}
 5:null
