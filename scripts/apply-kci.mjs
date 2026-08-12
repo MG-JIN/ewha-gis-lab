@@ -81,7 +81,9 @@ function main() {
   for (const row of confirmedRows) {
     const id = row.id;
     const doi = (row.kci_doi || "").trim();
-    const url = (row.kci_url || "").trim();
+    // kci_url이 비어있고 UCI만 있던 건은 suggested_link에 KCI 상세페이지 URL을
+    // 채워뒀으므로(검증 통과분) 그것도 url 소스로 인정한다.
+    const url = (row.kci_url || "").trim() || (row.suggested_link || "").trim();
 
     let field, value;
     if (doi) {
@@ -93,13 +95,13 @@ function main() {
       value = doi;
     } else if (url) {
       if (!/^https?:\/\//.test(url)) {
-        skipped.push({ id, reason: `kci_url이 http(s)://로 시작하지 않음 (값: "${url}")` });
+        skipped.push({ id, reason: `url이 http(s)://로 시작하지 않음 (값: "${url}")` });
         continue;
       }
       field = "url";
       value = url;
     } else {
-      skipped.push({ id, reason: "kci_doi/kci_url 둘 다 없음" });
+      skipped.push({ id, reason: "kci_doi/kci_url/suggested_link 전부 없음" });
       continue;
     }
 
@@ -120,6 +122,12 @@ function main() {
 
     if (fieldPattern.test(targetLine)) {
       skipped.push({ id, reason: `이미 ${field} 필드가 있음 — 덮어쓰지 않음` });
+      continue;
+    }
+
+    // url을 넣으려는데 이미 doi가 있으면(모달이 doi를 우선하므로) url은 넣지 않고 경고만 남김
+    if (field === "url" && /"doi":/.test(targetLine)) {
+      skipped.push({ id, reason: "이미 doi 필드가 있음 — url을 추가하지 않음(모달이 doi 우선)" });
       continue;
     }
 
