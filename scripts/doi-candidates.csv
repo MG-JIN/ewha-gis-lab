@@ -1,0 +1,99 @@
+﻿id,original_title,original_authors,original_venue,original_year,candidate_doi,candidate_title,candidate_container,candidate_year,crossref_score,title_similarity,confirmed,note
+pub-jour-001,Modeling and Explaining Perceived Fear of Crime from Street View Imagery Using a GeoAI Framework,"Somang Kim, Jaeyeon Choi, Youngok Kang","ISPRS International Journal of Geo-Information, 15(1), 1-27",2026,10.3390/ijgi15010018,Modeling and Explaining Perceived Fear of Crime from Street View Imagery Using a GeoAI Framework,ISPRS International Journal of Geo-Information,2025,102.18555,1,O,
+pub-jour-005,Modeling and explaining perceived walkability in urban environments using street view images and explainable AI,"Jaeyeon Choi, Youngok Kang","Spatial Information Research, 33(6), 1-16",2025,10.1007/s41324-025-00656-7,Modeling and explaining perceived walkability in urban environments using street view images and explainable AI,Spatial Information Research,2025,103.30491,1,O,
+pub-jour-006,Context-Aware Anomaly Detection of Pedestrian Trajectories in Urban Back Streets Using a Variational Autoencoder,"Juyeon Cho, Youngok Kang","ISPRS International Journal of Geo-Information, 14(11), 1-23",2025,10.3390/ijgi14110438,Context-Aware Anomaly Detection of Pedestrian Trajectories in Urban Back Streets Using a Variational Autoencoder,ISPRS International Journal of Geo-Information,2025,106.99799,1,O,
+pub-jour-009,PGTFT: A Lightweight Graph-Attention Temporal Fusion Transformer for Predicting Pedestrian Congestion in Shadow Areas,"Jiyoon Lee, Youngok Kang","ISPRS International Journal of Geo-Information, 14(1), 1-18",2025,10.3390/ijgi14100381,PGTFT: A Lightweight Graph-Attention Temporal Fusion Transformer for Predicting Pedestrian Congestion in Shadow Areas,ISPRS International Journal of Geo-Information,2025,115.275665,1,O,
+pub-jour-013,A Dynamic Algorithm for Measuring Pedestrian Congestion and Safety in Urban Alleyways,"Jiyoon Lee, Youngok Kang","ISPRS International Journal of Geo-Information, 13(12), 434",2024,10.3390/ijgi13120434,A Dynamic Algorithm for Measuring Pedestrian Congestion and Safety in Urban Alleyways,ISPRS International Journal of Geo-Information,2024,82.391106,1,O,
+pub-jour-015,Exploring lifestyle patterns from GPS trajectory data: embedding spatio-temporal context information via geohash and POI,"Huiju Lee, Youngok Kang, Seungmin Noh, Jiyeon Kim, Jiyoon Lee","Spatial Information Research, 32, 801-813",2024,10.1007/s41324-024-00597-7,Exploring lifestyle patterns from GPS trajectory data: embedding spatio-temporal context information via geohash and POI,Spatial Information Research,2024,113.507965,1,O,
+pub-jour-023,Assessment of Perceived and Physical Walkability Using Street View Images and Deep Learning Technology,"Youngok Kang, Jiyeon Kim, Jiyoung Park, Jiyoon Lee","ISPRS International Journal of Geo-Information, 12(5), 186",2023,10.3390/ijgi12050186,Assessment of Perceived and Physical Walkability Using Street View Images and Deep Learning Technology,ISPRS International Journal of Geo-Information,2023,81.63206,1,O,
+pub-jour-024,Classifying Tourists' Photos and Exploring Tourism Destination Image Using a Deep Learning Model,"Nahye Cho, Youngok Kang, Jiyeon Kim, Soyeon Park, Jiyoung Yoon","Journal of Quality Assurance in Hospitality and Tourism, 23(6), 1480-1508",2022,10.5194/ica-abs-3-150-2021,Classifying Tourists’ Photos and Exploring Tourism Destination Image Using a Deep Learning Model,Abstracts of the ICA,2021,92.767624,1,O,
+pub-jour-030,Automatic Classification of Photos by Tourist Attractions Using Deep Learning Model and Image Feature Vector Clustering,"Jiyeon Kim, Youngok Kang","ISPRS International Journal of Geo-Information, 11(4), 245",2022,10.3390/ijgi11040245,Automatic Classification of Photos by Tourist Attractions Using Deep Learning Model and Image Feature Vector Clustering,ISPRS International Journal of Geo-Information,2022,102.34407,1,O,
+pub-jour-034,Mining Tourists' Destinations and Preferences through LSTM-based Text Classification and Spatial Clustering Using Flickr Data,"Hyejin Lee, Youngok Kang","Spatial Information Research, 29(6), 825-839",2021,10.1007/s41324-021-00397-3,Mining tourists’ destinations and preferences through LSTM-based text classification and spatial clustering using Flickr data,Spatial Information Research,2021,111.289536,1,O,
+pub-jour-036,Transfer Learning of a Deep Learning Model for Exploring Tourists' Urban Image Using Geotagged Photos,"Youngok Kang, Nahye Cho, Jiyoung Yoon, Soyeon Park, Jiyeon Kim","ISPRS International Journal of Geo-Information, 10(3), 137",2021,10.3390/ijgi10030137,Transfer Learning of a Deep Learning Model for Exploring Tourists’ Urban Image Using Geotagged Photos,ISPRS International Journal of Geo-Information,2021,91.661545,1,O,
+pub-jour-042,Understanding Tourists' Urban Images with Geotagged Photos Using Convolutional Neural Networks,"Dongeun Kim, Youngok Kang, Nayeon Kim, Yearim Park, Juyoon Lee",Spatial Information Research (online first),2020,10.1007/s41324-019-00285-x,Understanding tourists’ urban images with geotagged photos using convolutional neural networks,Spatial Information Research,2019,84.582565,1,O,
+pub-jour-043,Identifying Staying Places with Global Positioning System Movement Data Using 3D Density-based Spatial Clustering of Applications with Noise,"Nahye Cho, Youngok Kang","Sensors and Materials, 31(10), 3273-3287",2019,10.18494/sam.2019.2410,Identifying Staying Places with Global Positioning System Movement Data Using 3D Density-based Spatial Clustering of Applications with Noise,Sensors and Materials,2019,120.73003,1,O,
+pub-jour-054,Spatiotemporal Characteristics of Elderly Population's Traffic Accidents in Seoul Using Space-Time Cube and Space-Time Kernel Density Estimation,"Youngok Kang, Nahye Cho, Serin Son",PLOS ONE,2018,10.1371/journal.pone.0196845,Spatiotemporal characteristics of elderly population’s traffic accidents in Seoul using space-time cube and space-time kernel density estimation,PLOS ONE,2018,120.62504,1,O,
+pub-jour-073,An Analysis of Spatial Characteristic on the Satisfaction of Residential Environments Using Tweets,"강영옥, 박재희, 강애띠","International Journal of Geospatial and Environmental Research, 1(2), 1-16",2014,10.17936/pkelt.2012.24.4.009,A study of primary English vocabulary teaching strategies using content-based informational texts,English Language Teaching,2012,23.473532,0.087,,
+pub-jour-078,온라인 국가지도집 발전방안에 관한 연구,"박지영, 강영옥","한국지도학회지, 13(3), 1-14",2013,10.15717/bioedu.2017.45.3.437,중등 과학교육에서 소집단을 활용한 교수학습 연구 분석 및 '소집단 연구' 방법론 고찰,BIOLOGY EDUCATION,2017,33.375652,0.067,,
+pub-jour-031,거리영상과 세그멘테이션을 활용한 보행환경 평가 지표 개발,"박지영, 강영옥, 김지연","한국지도학회지, 22(1), 53-68",2022,10.15717/bioedu.2017.45.3.437,중등 과학교육에서 소집단을 활용한 교수학습 연구 분석 및 '소집단 연구' 방법론 고찰,BIOLOGY EDUCATION,2017,32.889904,0.059,,
+pub-jour-062,An Analysis of Open Source GIS Software Business Models and Case Studies,"강영옥, 손세린","Spatial Information Research, 24, 745-754",2016,10.21457/kars..58.201003.157,On the Study of Catholic Feminie Leadership,Studies in Religion(The Journal of the Korean Association for the History of Religions),2010,27.733858,0.056,,
+pub-jour-096,지방자치단체의 Enterprise GIS 고도화전략: 데이터중심에서 서비스중심 아키텍처로,강영옥,"한국GIS학회지, 15(3), 347-362",2007,10.21073/kiar.2009..26.010,An Empirical Study on Relationship between Tax Avoidance and Enterprise Characters' Variables,Korea International Accounting Review,2009,23.845875,0.056,,
+pub-jour-025,딥러닝을 활용한 비전 기반 궤적 예측 연구 동향 분석,"이지윤, 조주연, 김지연, 이도현, 강영옥","한국공간정보학회지, 30(4), 113-128",2022,10.36345/kacst.2019.37.4.010,종업원의 진정성 인식을 중심으로 한 기업 CSR활동의 내부마케팅 효과에 관한 연구,Journal of Product Research,2019,26.85382,0.053,,
+pub-jour-028,기계학습을 이용한 보행환경 정성적 평가에 영향을 미치는 거리영상 특성분석,"이지윤, 강영옥, 김지연, 박지영","한국지리학회지, 11(3), 375-391",2022,10.15717/bioedu.2019.47.1.59,문제중심 STEAM 프로그램이 고등학생의 과학 관련 태도와 STEAM 수업에 대한 인식에 미치는 효과,BIOLOGY EDUCATION,2019,27.230957,0.05,,
+pub-jour-002,NDVI와 고해상도 식생 마스크를 활용한 계절별 Green View Index 추정,"하승주, 강영옥","한국지도학회지, 25(3), 93-106",2025,,,,,,,,no_candidate
+pub-jour-003,Social Pooling과 Cross Attention 기반 Transformer 모델을 활용한 이면도로 보행자 궤적 예측,"하지우, 강영옥","대한공간정보학회지, 33(4), 3-14",2025,,,,,,,,no_candidate
+pub-jour-004,시공간 그래프 신경망을 활용한 도로 단위 불법주정차 예측 모델 개발,"윤서현, 강영옥","지적과 국토정보, 55(2), 101-119",2025,,,,,,,,no_candidate
+pub-jour-007,거리영상과 딥러닝을 활용한 범죄 불안감 예측 및 CPTED 기반 범죄 안전 설계 평가,"김소망, 강영옥","대한지리학회지, 60(5), 576-592",2025,,,,,,,,no_candidate
+pub-jour-008,항공정사영상과 딥러닝을 활용한 옥상녹화 가능 건물 탐지 및 우선순위 평가,"김현덕, 강영옥","대한지리학회지, 60(5), 593-608",2025,,,,,,,,no_candidate
+pub-jour-010,항공정사영상과 딥러닝을 활용한 옥상녹화를 위한 평지붕 탐지 모델 개발,"김현덕, 강영옥","대한공간정보학회지, 33(3), 3-15",2025,,,,,,,,no_candidate
+pub-jour-011,오토인코더와 클러스터링을 통한 보행특성분석: CCTV에서 탐지된 궤적데이터를 활용한 위험 회피보행의 시공간 특성,"노승민, 이지윤, 강영옥","대한공간정보학회지, 33(1), 29-41",2025,,,,,,,,no_candidate
+pub-jour-012,거리영상과 딥러닝을 활용한 물리적 보행환경과 인지적 보행환경 평가,"최재연, 김소망, 노승민, 강영옥","한국지도학회지, 24(3), 45-60",2024,,,,,,,,no_candidate
+pub-jour-014,거리영상과 시멘틱 세그먼테이션을 활용한 보행환경평가,"최재연, 김소망, 노승민, 강영옥","대한지리학회지, 59(5), 673-687",2024,,,,,,,,no_candidate
+pub-jour-016,변분 오토인코더를 활용한 보행자 이상 궤적 탐지,"조주연, 강영옥","대한공간정보학회지, 32(3), 29-39",2024,,,,,,,,no_candidate
+pub-jour-017,거리영상과 딥러닝을 활용한 가로수준의 범죄불안감 측정 및 시각화,"김소망, 최재연, 강영옥","한국지도학회지, 24(1), 71-84",2024,,,,,,,,no_candidate
+pub-jour-018,어디가 더 걷기 좋다고 생각하십니까? 거리영상과 샴 네트워크 기반의 딥러닝 모델을 활용한 정성적 보행환경 평가,"최재연, 김소망, 강영옥","한국도시지리학회지, 27(1), 65-79",2024,,,,,,,,no_candidate
+pub-jour-019,스마트폰 GPS궤적의 시공간 맥락정보 벡터 임베딩을 활용한 생활 패턴 탐색 프레임워크,"김지연, 강영옥","대한공간정보학회지, 31(3), 27-36",2023,,,,,,,,no_candidate
+pub-jour-020,벡터 임베딩을 활용한 스마트폰 궤적의 이동 모드 분류,"이지윤, 강영옥","대한공간정보학회지, 31(3), 3-12",2023,,,,,,,,no_candidate
+pub-jour-021,GeoAI 활용분야와 연구동향,강영옥,"대한지리학회지, 58(4), 395-418",2023,,,,,,,,no_candidate
+pub-jour-022,스마트폰 GPS궤적의 체류 지점 도출 및 맥락정보 생성방법,"이희주, 노승민, 강영옥","한국지도학회지, 23(2), 61-72",2023,,,,,,,,no_candidate
+pub-jour-026,궤적 데이터 마이닝 연구 동향: 응용 분야와 분석 방법론을 중심으로,"김지연, 이도현, 이지윤, 조주연, 강영옥","한국지도학회지, 22(3), 37-57",2022,,,,,,,,no_candidate
+pub-jour-027,스마트카드 데이터를 활용한 통행궤적 기반 고령인구 통행유형 분류,"이주윤, 강영옥","지적과 국토정보, 52(2), 153-169",2022,,,,,,,,no_candidate
+pub-jour-029,거리영상 기반 보행환경의 정성적 평가 예측을 위한 딥러닝 모델 개발,"김지연, 강영옥","대한공간정보학회지, 30(2), 45-56",2022,,,,,,,,no_candidate
+pub-jour-032,시멘틱 궤적과 GRU 모델을 활용한 개별 관광객의 다음 목적지 예측 모델링,"박소연, 강영옥","대한공간정보학회지, 29(4), 27-37",2021,,,,,,,,no_candidate
+pub-jour-033,CNN 기반 다중레이블 전이학습을 통한 관광이미지 분석,"윤지영, 강영옥","대한공간정보학회지, 29(4), 15-26",2021,,,,,,,,no_candidate
+pub-jour-035,합성곱신경망을 활용한 SNS 사진 분류 및 관광객과 거주자의 관광 활동 특성 분석,"강영옥, 조나혜, 박소연, 김지연","대한지리학회지, 56(3), 247-264",2021,,,,,,,,no_candidate
+pub-jour-037,SNS 사진에 나타난 사용자 선호 기반의 장소추천,"박소연, 김지연, 강영옥, 조나혜, 윤지영","대한공간정보학회지, 28(4), 127-136",2020,,,,,,,,no_candidate
+pub-jour-038,토픽모델링과 LSTM 기반 텍스트 분석을 통한 부산방문 외국인 관광객의 선호관광지 및 관광매력요인 분석,"이혜진, 강영옥","한국도시지리학회지, 23(3), 61-70",2020,,,,,,,,no_candidate
+pub-jour-039,교통카드 데이터를 활용한 서울시 고령인구 주요 체류지 및 체류지별 특성,"이주윤, 김현덕, 강영옥","지적과 국토정보, 50(1), 231-245",2020,,,,,,,,no_candidate
+pub-jour-040,소셜 미디어데이터 분석을 통한 부산방문 외국인 관광객의 선호 관광지 및 관광지 이미지 분석,"이혜진, 강영옥","한국도시지리학회지, 23(1), 101-114",2020,,,,,,,,no_candidate
+pub-jour-041,지능형 관광 서비스를 위한 관광 사진 분류체계 개발,"조나혜, 강영옥, 윤지영, 박소연","한국지도학회지, 19(3), 87-101",2019,,,,,,,,no_candidate
+pub-jour-044,경험적 모델과 머신러닝 기법을 활용한 SNS 사용자 분류방법 비교: 플리커 데이터의 관광객 분류방법,"강영옥, 윤지영, 이주윤, 이혜진, 조나혜","대한공간정보학회지, 27(4), 29-37",2019,,,,,,,,no_candidate
+pub-jour-045,LSTM을 활용한 불법주정차 시공간 예측 모델링: 서울시 민원신고 데이터를 중심으로,"김동은, 강영옥","대한공간정보학회지, 27(3), 39-47",2019,,,,,,,,no_candidate
+pub-jour-046,통신 데이터를 활용한 도보관광코스 유동인구 추정 및 분석,"박예림, 강영옥","지적과 국토정보, 49(1), 181-195",2019,,,,,,,,no_candidate
+pub-jour-047,지오태깅된 사진 데이터를 활용한 서울방문 관광객의 주요 관광지 분석,"김나연, 강영옥","한국지도학회지, 19(1), 35-46",2019,,,,,,,,no_candidate
+pub-jour-048,소셜 네트워크 데이터를 활용한 서울방문 관광객의 선호 관광지 시공간 특성 분석,"김나연, 강영옥, 김동은, 박예림, 이주윤","서울도시연구, 20(1), 81-96",2019,,,,,,,,no_candidate
+pub-jour-049,플리커 데이터의 텍스트마이닝을 통한 서울방문 외국인 관광객의 서울 이미지 분석,"박예림, 강영옥, 김동은, 이주윤, 김나연","한국지형공간정보학회지, 27(1), 11-23",2019,,,,,,,,no_candidate
+pub-jour-050,궤적 데이터 마이닝을 통한 서울방문 관광객의 이동 특성 분석,"이주윤, 강영옥, 김나연, 김동은, 박예림","한국지도학회지, 18(3), 117-129",2018,,,,,,,,no_candidate
+pub-jour-051,트윗데이터를 활용한 스트레스 토픽의 지역별 특징 분석,"강애띠, 강영옥","한국지도학회지, 18(2), 53-69",2018,,,,,,,,no_candidate
+pub-jour-052,도로 네트워크를 따른 교통사고 핫스팟 시각화,"조나혜, 전철민, 강영옥","지적과 국토정보, 48(1), 201-213",2018,,,,,,,,no_candidate
+pub-jour-053,국내 오픈소스 공간정보 소프트웨어 관련 기업의 비즈니스 모델 제안,"손세린, 강영옥","지적과 국토정보, 48(1), 187-199",2018,,,,,,,,no_candidate
+pub-jour-055,STP(Space Time Path)를 이용한 로그데이터의 시각화 및 특징분석,"조나혜, 강영옥","한국지도학회지, 18(1), 93-102",2018,,,,,,,,no_candidate
+pub-jour-056,오픈소스 공간정보 소프트웨어 도입 가이드라인 연구,"강영옥, 손세린","한국지도학회지, 17(3), 133-143",2017,,,,,,,,no_candidate
+pub-jour-057,의사결정나무와 시공간 시각화를 통한 서울시 교통사고 심각도 요인 분석,"강영옥, 손세린, 조나혜","지적과 국토정보, 47(2), 233-254",2017,,,,,,,,no_candidate
+pub-jour-058,스마트폰과 공간정보기술을 활용한 수업모듈의 개발과 적용: 우리 지역 소음지도 만들기,"김지연, 강영옥","한국지도학회지, 17(2), 63-74",2017,,,,,,,,no_candidate
+pub-jour-059,서울시 여성운전자 교통사고의 시공간 특성 분석,"손세린, 강영옥","한국지도학회지, 17(2), 89-98",2017,,,,,,,,no_candidate
+pub-jour-060,공간정보기술 활용 교육에 대한 교사 요구사항 분석 및 교육서비스 제공 전략,"강영옥, 박지영","한국지도학회지, 17(1), 59-69",2017,,,,,,,,no_candidate
+pub-jour-061,Space-time Density of Field Trip Trajectory: Exploring Spatio-temporal Patterns in Movement Data,"조나혜, 강영옥","Spatial Information Research, 25, 141-150",2017,,,,,,,,no_candidate
+pub-jour-063,오픈소스 공간정보 소프트웨어 비즈니스 모델 및 국내 관련기업의 비즈니스 활성화 전략,"강영옥, 손세린","한국지도학회지, 15(3), 103-113",2016,,,,,,,,no_candidate
+pub-jour-064,로그데이터의 시공간 데이터마이닝 및 시각화 연구동향,"조나혜, 강영옥","한국지도학회지, 16(3), 15-27",2016,,,,,,,,no_candidate
+pub-jour-065,Evaluating Residential Location Inference of Twitter Users at District Level: Focused on Seoul City,"김문기, 강영옥, 고준환","Spatial Information Research, 24, 493-502",2016,,,,,,,,no_candidate
+pub-jour-066,Inferring Tweet Location Inference for Twitter Mining,"김문기, 강영옥, 이지영, 고준환","Spatial Information Research, 24, 421-435",2016,,,,,,,,no_candidate
+pub-jour-067,Risk Analysis and Visualization for Detecting Signs of Flood Disaster in Twitter,"권회윤, 강영옥","Spatial Information Research, 24, 127-139",2016,,,,,,,,no_candidate
+pub-jour-068,모바일 기반 현장체험학습 시스템의 사용성 평가,"강영옥, 조나혜","교과교육학연구, 20(2), 140-151",2016,,,,,,,,no_candidate
+pub-jour-069,국내 오픈소스 공간정보 소프트웨어 활성화를 위한 요구사항 분석,"강영옥, 권회윤","한국공간정보학회지, 23(6), 99-107",2015,,,,,,,,no_candidate
+pub-jour-070,모바일 현장체험학습 저작도구 개발을 위한 기초연구,"강영옥, 조나혜","한국공간정보학회지, 23(3), 123-132",2015,,,,,,,,no_candidate
+pub-jour-071,타임라인데이터를 이용한 트위터 사용자의 거주 지역 유추방법,"강애띠, 강영옥","한국공간정보학회지, 23(3), 69-81",2015,,,,,,,,no_candidate
+pub-jour-072,국내 오픈소스 공간정보 소프트웨어 생태계 분석,"강영옥, 강애띠, 권회윤","한국공간정보학회지, 22(6), 67-79",2014,,,,,,,,no_candidate
+pub-jour-074,공간정보의 교육 분야 활용을 위한 전략연구,"강영옥, 조나혜","한국공간정보학회지, 22(2), 19-29",2014,,,,,,,,no_candidate
+pub-jour-075,구글 API를 활용한 공공데이터의 지리적 시각화 연구,"김현덕, 강영옥","한국지도학회지, 13(1), 1-15",2014,,,,,,,,no_candidate
+pub-jour-076,트윗을 이용한 서울시 주거환경 만족의 공간적 특성 분석 - 도시정책지표 보완을 위한 활용방안 모색,"박재희, 강영옥","한국도시지리학회지, 17(1), 43-56",2014,,,,,,,,no_candidate
+pub-jour-077,지리개념 이해를 위한 지오 온톨로지 구축: 해안지형을 사례로,"조나혜, 강영옥","한국지도학회지, 13(3), 99-111",2013,,,,,,,,no_candidate
+pub-jour-079,지리적 관점에서 본 세계유산 창덕궁의 현장체험학습 설계 및 모바일 시스템 구현,"한상미, 강영옥","교과교육학연구, 17(3), 645-666",2013,,,,,,,,no_candidate
+pub-jour-080,국가기초구역기반 의사결정지원시스템 구축전략,"강영옥, 강애띠","한국공간정보학회지, 21(2), 85-97",2013,,,,,,,,no_candidate
+pub-jour-081,온톨로지 기반의 인문지리정보 통합시스템 구축자료 검증방안,"강영옥, 조나혜","한국지도학회지, 13(3), 99-111",2013,,,,,,,,no_candidate
+pub-jour-082,선형기반의 도로명주소 및 국가기초구역 통합데이터 모델 연구,"강영옥, 장예진","한국지도학회지, 12(3), 63-79",2012,,,,,,,,no_candidate
+pub-jour-083,모바일 증강현실 기술을 이용한 역사관광정보 서비스에 관한 연구,"정다운, 강영옥","한국공간정보학회지, 12(3), 58-70",2012,,,,,,,,no_candidate
+pub-jour-084,Mobile Web 2.0 개념의 지역 기반 U-서비스 모델 연구: 은평 뉴타운의 Mobile U-Portal 서비스모델,"이주연, 강영옥","한국도시지리학회지, 15(1), 87-101",2012,,,,,,,,no_candidate
+pub-jour-085,"국가기초구역 설정 방법 비교 연구 - 종로구, 아산시, 태안군을 사례로","강영옥, 조선희","한국지도학회지, 12(1), 113-127",2012,,,,,,,,no_candidate
+pub-jour-086,U-City 서비스에 대한 만족도 분석 및 발전 방안 연구: 부산시 시민체감 서비스를 사례로,"피민희, 강영옥","한국도시지리학회지, 13(3), 75-87",2010,,,,,,,,no_candidate
+pub-jour-087,국가 기본공간정보로서 새주소 자료 구축전략,"강영옥, 이주연","한국지도학회지, 10(2), 113-127",2010,,,,,,,,no_candidate
+pub-jour-088,구글어스 기반의 지리교육 사이트 설계 및 구현,"이선주, 강영옥","한국공간정보학회지, 18(2), 113-127",2010,,,,,,,,no_candidate
+pub-jour-089,공간정보 알고리즘 및 시스템: GeoRSS 기능을 활용한 축제정보 사이트 구축,"조아라, 강영옥","한국공간정보학회 논문지, 18(1), 89-99",2010,,,,,,,,no_candidate
+pub-jour-090,U-Eco City 구축 가이드라인 프레임워크 개발,"강영옥, 피민희, 조아라, 이주연","한국공간정보시스템학회 논문지, 12(1), 85-93",2010,,,,,,,,no_candidate
+pub-jour-091,U-Eco City 구축 가이드라인 작성을 위한 기초연구,강영옥,"한국공간정보시스템학회 논문지, 11(2), 170-176",2009,,,,,,,,no_candidate
+pub-jour-092,소지역 통계공표구역 설정지침 보완연구,"강영옥, 장세진","한국지도학회지, 8(2), 47-57",2008,,,,,,,,no_candidate
+pub-jour-093,소지역 통계공표구역 유지관리방안 연구,"강영옥, 장세진","한국도시지리학회지, 11(3), 53-65",2008,,,,,,,,no_candidate
+pub-jour-094,웹2.0 환경변화가 지리학 연구에 미치는 영향 고찰,강영옥,"대한지리학회지, 43(3), 399-406",2008,,,,,,,,no_candidate
+pub-jour-095,유비쿼터스 기술을 이용한 다중집합장소의 시민서비스 고도화 방안: 지리공간 웹 기반 서비스 제공을 중심으로,"강영옥, 김희원","한국GIS학회지, 16(1), 79-99",2008,,,,,,,,no_candidate
+pub-jour-097,서울시 측량기준점 정비 및 활용대책,"강영옥, 이석민, 정상희, 이양재","한국지도학회지, 7(1), 45-53",2007,,,,,,,,no_candidate
+pub-jour-098,소지역 통계구역 획정방안 연구,"강영옥, 윤은주, 정재희","한국도시지리학회지, 10(1), 15-36",2007,,,,,,,,no_candidate
