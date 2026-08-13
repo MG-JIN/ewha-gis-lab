@@ -134,7 +134,7 @@
    이유: 파일이 항목당 한 줄(non-pretty-printed) 포맷이라, 전체 재직렬화 시 `git diff`가 수백 줄로 오염돼 실제 변경 내용을 알아볼 수 없게 된다.
 
 4. **데이터 변경 커밋과 UI 변경 커밋을 분리한다.**
-   **근거 미확인** — `CLAUDE.md`·`.claude/skills/*`·`.claude/agents/*` 어디에도 이를 명문화한 규칙은 찾지 못함. 다만 `git log`상 `data:`/`content:` 접두사 커밋과 `feat:`/`style:`/`refactor:` 접두사 커밋이 실제로 분리되어 있는 관행은 관찰됨(예: 마일스톤 5의 "Publications 모달에 DOI/원문 링크 표시 기능 추가(스키마+UI)"와 "journal 14건 DOI 추가"가 별도 커밋).
+   근거: `CLAUDE.md` "## 6. 커밋 규칙 > 커밋 단위 분리" — 데이터(`content/*.json`, `content/news/*.md`)와 UI/로직(`components/`, `lib/`, `app/`), 기타(`scripts/`, `docs/`, `.claude/`, `.github/`)를 별도 커밋으로 분리하도록 명문화됨(에셋+참조 데이터 필드는 예외적으로 함께 커밋). `git log`상으로도 `data:`/`content:` 접두사 커밋과 `feat:`/`style:`/`refactor:` 접두사 커밋이 실제로 분리되어 있는 관행이 확인됨(예: 마일스톤 5의 "Publications 모달에 DOI/원문 링크 표시 기능 추가(스키마+UI)"와 "journal 14건 DOI 추가"가 별도 커밋).
 
 5. **배포 전 `check-static-links.mjs`로 basePath 누락·404·고아 자산을 검증한다.**
    근거: `.claude/skills/lab-deploy-check/scripts/check-static-links.mjs:1-13`(스크립트 상단 주석), `.claude/skills/lab-deploy-check/SKILL.md:40-58`.
