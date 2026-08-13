@@ -29,6 +29,9 @@
 !.claude/commands/
 !.claude/commands/**
 
+# .claude/commands/를 스킬 형식으로 자동 변환한 파생 산출물 (원본은 .claude/commands/에 이미 커밋됨)
+.agents/
+
 # debug
 npm-debug.log*
 yarn-debug.log*
