@@ -145,7 +145,7 @@ export default function NewsExplorer({ newsList }: { newsList: NewsSummary[] }) 
 
   return (
     <div>
-      <Reveal className="mb-10 flex flex-wrap gap-2">
+      <Reveal className="mb-10 flex flex-wrap justify-center gap-2">
         {FILTERS.map((item) => (
           <button
             key={item.value}
