@@ -5,6 +5,7 @@ import Link from "next/link";
 import Reveal from "@/components/ui/Reveal";
 import Accordion from "@/components/ui/Accordion";
 import Modal, { ModalDetailLayout } from "@/components/ui/Modal";
+import FilterToggle from "@/components/ui/FilterToggle";
 import type { NewsSummary } from "@/lib/news";
 
 // 뱃지에 얇은 흰 테두리(ring)를 둘러 배경(흰 섹션/틴트 섹션)과 무관하게
@@ -145,22 +146,12 @@ export default function NewsExplorer({ newsList }: { newsList: NewsSummary[] }) 
 
   return (
     <div>
-      <Reveal className="mb-10 flex flex-wrap justify-center gap-2">
-        {FILTERS.map((item) => (
-          <button
-            key={item.value}
-            type="button"
-            onClick={() => setFilter(item.value)}
-            aria-pressed={filter === item.value}
-            className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
-              filter === item.value
-                ? "bg-ewha-green-900 text-white"
-                : "bg-gray-100 text-gray-600 hover:bg-ewha-green-50 hover:text-ewha-green-900"
-            }`}
-          >
-            {item.label} ({counts[item.value]})
-          </button>
-        ))}
+      <Reveal className="mb-10">
+        <FilterToggle
+          items={FILTERS.map((f) => ({ ...f, count: counts[f.value] }))}
+          value={filter}
+          onChange={setFilter}
+        />
       </Reveal>
 
       {filtered.length === 0 ? (
