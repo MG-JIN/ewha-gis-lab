@@ -75,7 +75,7 @@ function ProfessorBlock({ professor }: { professor: Member }) {
         )}
       </div>
 
-      <div className="w-full text-center md:text-left">
+      <div className="w-full text-left">
         <p className="text-sm font-semibold tracking-wide text-ewha-green-700 uppercase">
           Professor
         </p>
